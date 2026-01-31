@@ -1,0 +1,126 @@
+# 定义各个阶段
+stages:
+  - build
+  - push_image
+  - deploy
+
+# 定义全局变量
+variables:
+  PROJECT: "mizhi_backend"
+  IMAGE_NAME: "hub.nwafu.edu.cn/library/mizhi/mizhi_backend"
+  IMAGE_TAG_NAME: "hub.nwafu.edu.cn/library/mizhi/mizhi_backend:${CI_COMMIT_SHORT_SHA}"
+  IMAGE_TAG_NAME_DEV: "hub.nwafu.edu.cn/library/mizhi/mizhi_backend:dev"
+  IMAGE_TAG_NAME_PROD: "hub.nwafu.edu.cn/library/mizhi/mizhi_backend:prod"
+
+# 构建阶段
+build-dev:
+  stage: build
+  image: hub.nwafu.edu.cn/library/node:18.18.2  # 使用node镜像来进行构建，可根据需要调整版本
+  cache:
+    key:
+      files:
+        - package.json
+    paths:
+      - node_modules
+  allow_failure: false
+  tags:
+    - npm
+  script:
+    - npm install --registry=https://registry.npmmirror.com # 安装项目依赖
+    - npm run build:dev  # 执行项目构建命令，生成可部署的文件，具体命令根据项目实际的构建脚本而定
+    - mkdir -p output/dev # 创建dev环境目录
+    - cp -r dist/* output/dev/  # 将本阶段的构建产物复制到dev目录下
+  artifacts:
+    expire_in: 7 days
+    paths:
+      - output/dev/  # 构建后的文件在dist目录下，将其作为制品传递给后续阶段
+
+# 构建阶段
+build-prod:
+  stage: build
+  image: hub.nwafu.edu.cn/library/node:18.18.2  # 使用node镜像来进行构建，可根据需要调整版本
+  cache:
+    key:
+      files:
+        - package.json
+    paths:
+      - node_modules
+  allow_failure: false
+  tags:
+    - aliyun
+  script:
+    - npm install --registry=https://registry.npmmirror.com # 安装项目依赖
+    - NODE_OPTIONS="--max-old-space-size=4096" npm run build:prod  # 分配 4GB 内存
+    - mkdir -p output/prod # 创建dev环境目录
+    - cp -r dist/* output/prod/  # 将本阶段的构建产物复制到dev目录下
+  artifacts:
+    expire_in: 7 days
+    paths:
+      - output/prod/  # 构建后的文件在dist目录下，将其作为制品传递给后续阶段
+      
+push-image-dev:
+  stage: push_image
+  image: hub.nwafu.edu.cn/public/docker:latest
+  script:
+    - docker login --username ${REGISTRY_USER} --password ${REGISTRY_PWD} ${REGISTRY_HOST}
+    - mkdir -p dist  # 创建目标目录
+    - cp -r output/dev/. dist/  # 使用点号复制全部内容
+    - ls -l
+    - ls -l dist/  # 验证产物是否存在
+    - docker build -t ${IMAGE_TAG_NAME_DEV} .
+    - docker push ${IMAGE_TAG_NAME_DEV}
+    - rm -rf target
+    - docker rm -f ${PROJECT} #停掉并删除当前运行着的容器
+  only:
+    - ts
+  tags:
+    - docker
+  needs: ["build-dev"]  # 明确依赖 build-dev 的构建作业
+    
+push-image-prod:
+  stage: push_image
+  image: hub.nwafu.edu.cn/public/docker:latest
+  script:
+    - echo "调试信息：REGISTRY_HOST 的值是 '${REGISTRY_HOST}'"  # 输出变量值
+    - echo "当前 DOCKER_HOST 环境变量是：${DOCKER_HOST}"       # 检查是否被覆盖
+    - unset DOCKER_HOST     # 清除干扰变量
+    - docker login --username ${REGISTRY_USER} --password ${REGISTRY_PWD} ${REGISTRY_HOST}
+    - mkdir -p dist
+    - cp -r output/prod/. dist/
+    - ls -l
+    - ls -l dist/  # 验证产物是否存在
+    - docker build -t ${IMAGE_TAG_NAME_PROD} .
+    - docker push ${IMAGE_TAG_NAME_PROD}
+    - rm -rf target
+    - docker rm -f ${PROJECT} #停掉并删除当前运行着的容器
+  only:
+    - ts
+  tags:
+    - aliyun
+  needs: ["build-prod"]  # 明确依赖 build-dev 的构建作业
+
+deploy-dev:
+  stage: deploy
+  image: hub.nwafu.edu.cn/public/docker:latest
+  tags:
+    - docker
+  script:
+    - docker run -d -p 81:81 -v /opt/docker/mizhi_backend/conf:/etc/nginx/conf.d -v /opt/docker/mizhi_backend/log:/var/log/nginx --name "${PROJECT}" "${IMAGE_TAG_NAME_DEV}"  #以latest镜像运行容器
+    - docker rmi $(docker images ${IMAGE_NAME} -f "dangling=true" -q) #删掉上一个容器关联的无标签镜像  
+  only:
+    - ts
+  when: always
+  needs: ["push-image-dev"]  # 明确依赖 build-dev 的构建作业
+  
+deploy-prod:
+  stage: deploy
+  image: hub.nwafu.edu.cn/public/docker:latest
+  tags:
+    - aliyun
+  script:
+    - docker run -d -p 81:81 -v /opt/docker/mizhi_backend/conf:/etc/nginx/conf.d -v /opt/docker/mizhi_backend/log:/var/log/nginx --name "${PROJECT}" "${IMAGE_TAG_NAME_PROD}"  #以latest镜像运行容器
+    - docker rmi $(docker images ${IMAGE_NAME} -f "dangling=true" -q) #删掉上一个容器关联的无标签镜像  
+  only:
+    - ts
+  when: always
+  needs: ["push-image-prod"]  # 明确依赖 build-dev 的构建作业

@@ -1,0 +1,4602 @@
+[
+  {
+    "landCode": "侯家沟001",
+    "landId": "1943553589439520770",
+    "baseId": "1880899316147232770",
+    "landArea": 1.52,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟002",
+    "landId": "1943553589607292930",
+    "baseId": "1880899316147232770",
+    "landArea": 1.13,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟003",
+    "landId": "1943553589691179009",
+    "baseId": "1880899316147232770",
+    "landArea": 0.8,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟004",
+    "landId": "1943553589749899265",
+    "baseId": "1880899316147232770",
+    "landArea": 1.21,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟005",
+    "landId": "1943553589884116994",
+    "baseId": "1880899316147232770",
+    "landArea": 2.53,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟006",
+    "landId": "1943553589947031553",
+    "baseId": "1880899316147232770",
+    "landArea": 1.71,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟007",
+    "landId": "1943553590018334721",
+    "baseId": "1880899316147232770",
+    "landArea": 1.32,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟008",
+    "landId": "1943553590110609409",
+    "baseId": "1880899316147232770",
+    "landArea": 2.88,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟009",
+    "landId": "1943553590169329666",
+    "baseId": "1880899316147232770",
+    "landArea": 4.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟010",
+    "landId": "1943553590232244225",
+    "baseId": "1880899316147232770",
+    "landArea": 4.75,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟011",
+    "landId": "1943553590295158785",
+    "baseId": "1880899316147232770",
+    "landArea": 5.05,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟012",
+    "landId": "1943553590362267650",
+    "baseId": "1880899316147232770",
+    "landArea": 2.71,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟013",
+    "landId": "1943553590420987905",
+    "baseId": "1880899316147232770",
+    "landArea": 1.76,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟014",
+    "landId": "1943553590475513858",
+    "baseId": "1880899316147232770",
+    "landArea": 1.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟015",
+    "landId": "1943553590576177154",
+    "baseId": "1880899316147232770",
+    "landArea": 2.87,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟016",
+    "landId": "1943553590647480321",
+    "baseId": "1880899316147232770",
+    "landArea": 2.18,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟017",
+    "landId": "1943553590702006274",
+    "baseId": "1880899316147232770",
+    "landArea": 3.41,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟018",
+    "landId": "1943553590760726529",
+    "baseId": "1880899316147232770",
+    "landArea": 2.86,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟019",
+    "landId": "1943553590819446786",
+    "baseId": "1880899316147232770",
+    "landArea": 1.8,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟020",
+    "landId": "1943553590878167041",
+    "baseId": "1880899316147232770",
+    "landArea": 3.92,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟021",
+    "landId": "1943553590932692993",
+    "baseId": "1880899316147232770",
+    "landArea": 2.91,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟022",
+    "landId": "1943553590991413249",
+    "baseId": "1880899316147232770",
+    "landArea": 2.98,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟023",
+    "landId": "1943553591041744898",
+    "baseId": "1880899316147232770",
+    "landArea": 3.15,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟024",
+    "landId": "1943553591096270850",
+    "baseId": "1880899316147232770",
+    "landArea": 2.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟025",
+    "landId": "1943553591561838593",
+    "baseId": "1880899316147232770",
+    "landArea": 3.1,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟026",
+    "landId": "1943553591142408194",
+    "baseId": "1880899316147232770",
+    "landArea": 3.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟027",
+    "landId": "1943553591196934145",
+    "baseId": "1880899316147232770",
+    "landArea": 2.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟028",
+    "landId": "1943553591251460098",
+    "baseId": "1880899316147232770",
+    "landArea": 1.28,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟029",
+    "landId": "1943553591620558850",
+    "baseId": "1880899316147232770",
+    "landArea": 0.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟030",
+    "landId": "1943553591670890497",
+    "baseId": "1880899316147232770",
+    "landArea": 3.08,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟031",
+    "landId": "1943553591301791746",
+    "baseId": "1880899316147232770",
+    "landArea": 2.93,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟032",
+    "landId": "1943553591352123393",
+    "baseId": "1880899316147232770",
+    "landArea": 4.21,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟033",
+    "landId": "1943553591402455042",
+    "baseId": "1880899316147232770",
+    "landArea": 2.62,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟034",
+    "landId": "1943553591456980993",
+    "baseId": "1880899316147232770",
+    "landArea": 5.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟035",
+    "landId": "1943553591511506945",
+    "baseId": "1880899316147232770",
+    "landArea": 2.31,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟036",
+    "landId": "1943553591721222145",
+    "baseId": "1880899316147232770",
+    "landArea": 3.22,
+    "rate": 20.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 322.0 g 或 戊唑·咪鲜胺 45% 80.5 ml"
+  },
+  {
+    "landCode": "侯家沟037",
+    "landId": "1943553591784136705",
+    "baseId": "1880899316147232770",
+    "landArea": 5.78,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟038",
+    "landId": "1943553591838662658",
+    "baseId": "1880899316147232770",
+    "landArea": 9.57,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟039",
+    "landId": "1943553591951908866",
+    "baseId": "1880899316147232770",
+    "landArea": 1.41,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟040",
+    "landId": "1943553591901577217",
+    "baseId": "1880899316147232770",
+    "landArea": 5.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟041",
+    "landId": "1943553592002240513",
+    "baseId": "1880899316147232770",
+    "landArea": 1.38,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟042",
+    "landId": "1943553592056766465",
+    "baseId": "1880899316147232770",
+    "landArea": 2.46,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟043",
+    "landId": "1943553592111292417",
+    "baseId": "1880899316147232770",
+    "landArea": 0.98,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟044",
+    "landId": "1943553592157429762",
+    "baseId": "1880899316147232770",
+    "landArea": 1.57,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟045",
+    "landId": "1943553592203567106",
+    "baseId": "1880899316147232770",
+    "landArea": 1.8,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟046",
+    "landId": "1943553592283258881",
+    "baseId": "1880899316147232770",
+    "landArea": 1.0,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟047",
+    "landId": "1943553592350367746",
+    "baseId": "1880899316147232770",
+    "landArea": 3.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟048",
+    "landId": "1943553592396505090",
+    "baseId": "1880899316147232770",
+    "landArea": 3.14,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟049",
+    "landId": "1943553592438448129",
+    "baseId": "1880899316147232770",
+    "landArea": 3.74,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟050",
+    "landId": "1943553592484585474",
+    "baseId": "1880899316147232770",
+    "landArea": 1.54,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟051",
+    "landId": "1943553592530722817",
+    "baseId": "1880899316147232770",
+    "landArea": 1.94,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟052",
+    "landId": "1943553592581054466",
+    "baseId": "1880899316147232770",
+    "landArea": 1.54,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟053",
+    "landId": "1943553592622997506",
+    "baseId": "1880899316147232770",
+    "landArea": 3.26,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟054",
+    "landId": "1943553592673329153",
+    "baseId": "1880899316147232770",
+    "landArea": 1.84,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟055",
+    "landId": "1943553592727855105",
+    "baseId": "1880899316147232770",
+    "landArea": 2.37,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟056",
+    "landId": "1943553592773992450",
+    "baseId": "1880899316147232770",
+    "landArea": 2.08,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟057",
+    "landId": "1943553592811741185",
+    "baseId": "1880899316147232770",
+    "landArea": 2.12,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟058",
+    "landId": "1943553592853684226",
+    "baseId": "1880899316147232770",
+    "landArea": 1.47,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟059",
+    "landId": "1943553592895627265",
+    "baseId": "1880899316147232770",
+    "landArea": 2.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟060",
+    "landId": "1943553592937570306",
+    "baseId": "1880899316147232770",
+    "landArea": 1.42,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟061",
+    "landId": "1943553592975319041",
+    "baseId": "1880899316147232770",
+    "landArea": 0.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟062",
+    "landId": "1943553593013067777",
+    "baseId": "1880899316147232770",
+    "landArea": 2.65,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟063",
+    "landId": "1943553593050816514",
+    "baseId": "1880899316147232770",
+    "landArea": 3.75,
+    "rate": 37.5,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 375.0 g，戊唑·咪鲜胺 93.8 ml，5% 高效氯氟氰菊酯 93.8 ml，芸苔素 37.5 ml，磷酸二氢钾 375.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟064",
+    "landId": "1943553593092759553",
+    "baseId": "1880899316147232770",
+    "landArea": 3.53,
+    "rate": 4.35,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "侯家沟065",
+    "landId": "1943553593134702593",
+    "baseId": "1880899316147232770",
+    "landArea": 1.8,
+    "rate": 30.77,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 180.0 g，戊唑·咪鲜胺 45.0 ml，5% 高效氯氟氰菊酯 45.0 ml，芸苔素 18.0 ml，磷酸二氢钾 180.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟066",
+    "landId": "1943553593176645634",
+    "baseId": "1880899316147232770",
+    "landArea": 2.5,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟067",
+    "landId": "1943553593214394370",
+    "baseId": "1880899316147232770",
+    "landArea": 0.86,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟068",
+    "landId": "1943553593277308930",
+    "baseId": "1880899316147232770",
+    "landArea": 1.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟069",
+    "landId": "1943553593407332353",
+    "baseId": "1880899316147232770",
+    "landArea": 1.53,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟070",
+    "landId": "1943553593549938690",
+    "baseId": "1880899316147232770",
+    "landArea": 1.03,
+    "rate": 25.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 103.0 g 或 戊唑·咪鲜胺 45% 25.8 ml"
+  },
+  {
+    "landCode": "侯家沟071",
+    "landId": "1943553593587687426",
+    "baseId": "1880899316147232770",
+    "landArea": 4.87,
+    "rate": 6.45,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 487.0 g 或 戊唑·咪鲜胺 45% 121.8 ml"
+  },
+  {
+    "landCode": "侯家沟072",
+    "landId": "1943553593625436161",
+    "baseId": "1880899316147232770",
+    "landArea": 1.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟073",
+    "landId": "1943553593658990593",
+    "baseId": "1880899316147232770",
+    "landArea": 2.85,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟074",
+    "landId": "1943553593734488065",
+    "baseId": "1880899316147232770",
+    "landArea": 3.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟075",
+    "landId": "1943553593818374146",
+    "baseId": "1880899316147232770",
+    "landArea": 3.25,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟076",
+    "landId": "1943553593864511490",
+    "baseId": "1880899316147232770",
+    "landArea": 4.51,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟077",
+    "landId": "1943553593910648834",
+    "baseId": "1880899316147232770",
+    "landArea": 2.98,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟078",
+    "landId": "1943553593952591873",
+    "baseId": "1880899316147232770",
+    "landArea": 2.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟079",
+    "landId": "1943553593994534913",
+    "baseId": "1880899316147232770",
+    "landArea": 2.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟080",
+    "landId": "1943553594044866562",
+    "baseId": "1880899316147232770",
+    "landArea": 1.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟081",
+    "landId": "1943553594086809601",
+    "baseId": "1880899316147232770",
+    "landArea": 2.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟082",
+    "landId": "1943553594124558338",
+    "baseId": "1880899316147232770",
+    "landArea": 2.09,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟083",
+    "landId": "1943553594162307073",
+    "baseId": "1880899316147232770",
+    "landArea": 4.62,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟084",
+    "landId": "1943553594195861506",
+    "baseId": "1880899316147232770",
+    "landArea": 0.57,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟085",
+    "landId": "1943553594229415938",
+    "baseId": "1880899316147232770",
+    "landArea": 2.93,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟086",
+    "landId": "1943553594262970370",
+    "baseId": "1880899316147232770",
+    "landArea": 2.0,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟087",
+    "landId": "1943553594300719106",
+    "baseId": "1880899316147232770",
+    "landArea": 1.37,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟088",
+    "landId": "1943553594338467842",
+    "baseId": "1880899316147232770",
+    "landArea": 2.4,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟089",
+    "landId": "1943553594376216578",
+    "baseId": "1880899316147232770",
+    "landArea": 1.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟090",
+    "landId": "1943553594418159618",
+    "baseId": "1880899316147232770",
+    "landArea": 2.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟091",
+    "landId": "1943553594451714050",
+    "baseId": "1880899316147232770",
+    "landArea": 6.52,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟092",
+    "landId": "1943553594489462785",
+    "baseId": "1880899316147232770",
+    "landArea": 2.75,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟093",
+    "landId": "1943553594523017217",
+    "baseId": "1880899316147232770",
+    "landArea": 3.16,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟094",
+    "landId": "1943553594527211522",
+    "baseId": "1880899316147232770",
+    "landArea": 1.18,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟095",
+    "landId": "1943553594527211523",
+    "baseId": "1880899316147232770",
+    "landArea": 1.99,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟096",
+    "landId": "1943553594623680513",
+    "baseId": "1880899316147232770",
+    "landArea": 6.61,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟097",
+    "landId": "1943553594707566593",
+    "baseId": "1880899316147232770",
+    "landArea": 3.29,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟098",
+    "landId": "1943553594745315330",
+    "baseId": "1880899316147232770",
+    "landArea": 2.91,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟099",
+    "landId": "1943553594778869761",
+    "baseId": "1880899316147232770",
+    "landArea": 6.44,
+    "rate": 9.52,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 644.0 g 或 戊唑·咪鲜胺 45% 161.0 ml"
+  },
+  {
+    "landCode": "侯家沟100",
+    "landId": "1943553594812424194",
+    "baseId": "1880899316147232770",
+    "landArea": 4.08,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟101",
+    "landId": "1943553594837590017",
+    "baseId": "1880899316147232770",
+    "landArea": 1.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟102",
+    "landId": "1943553594871144449",
+    "baseId": "1880899316147232770",
+    "landArea": 2.6,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟103",
+    "landId": "1943553594900504578",
+    "baseId": "1880899316147232770",
+    "landArea": 1.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟104",
+    "landId": "1943553594929864706",
+    "baseId": "1880899316147232770",
+    "landArea": 2.34,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟105",
+    "landId": "1943553594959224833",
+    "baseId": "1880899316147232770",
+    "landArea": 5.91,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟106",
+    "landId": "1943553594992779265",
+    "baseId": "1880899316147232770",
+    "landArea": 3.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟107",
+    "landId": "1943553595026333698",
+    "baseId": "1880899316147232770",
+    "landArea": 4.86,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟108",
+    "landId": "1943553595059888130",
+    "baseId": "1880899316147232770",
+    "landArea": 0.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟109",
+    "landId": "1943553595097636866",
+    "baseId": "1880899316147232770",
+    "landArea": 1.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟110",
+    "landId": "1943553595131191297",
+    "baseId": "1880899316147232770",
+    "landArea": 2.85,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟111",
+    "landId": "1943553595156357122",
+    "baseId": "1880899316147232770",
+    "landArea": 2.33,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟112",
+    "landId": "1943553595189911554",
+    "baseId": "1880899316147232770",
+    "landArea": 4.12,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟113",
+    "landId": "1943553595223465986",
+    "baseId": "1880899316147232770",
+    "landArea": 4.1,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟114",
+    "landId": "1943553595252826114",
+    "baseId": "1880899316147232770",
+    "landArea": 1.44,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟115",
+    "landId": "1943553595282186242",
+    "baseId": "1880899316147232770",
+    "landArea": 3.25,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟116",
+    "landId": "1943553595311546370",
+    "baseId": "1880899316147232770",
+    "landArea": 2.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟117",
+    "landId": "1943553595374460929",
+    "baseId": "1880899316147232770",
+    "landArea": 3.25,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟118",
+    "landId": "1943553595420598273",
+    "baseId": "1880899316147232770",
+    "landArea": 1.1,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟119",
+    "landId": "1943553595550621698",
+    "baseId": "1880899316147232770",
+    "landArea": 7.06,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟120",
+    "landId": "1943553595588370433",
+    "baseId": "1880899316147232770",
+    "landArea": 5.15,
+    "rate": 3.12,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "侯家沟121",
+    "landId": "1943553595617730561",
+    "baseId": "1880899316147232770",
+    "landArea": 3.58,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟122",
+    "landId": "1943553595651284993",
+    "baseId": "1880899316147232770",
+    "landArea": 2.07,
+    "rate": 16.67,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 207.0 g 或 戊唑·咪鲜胺 45% 51.7 ml"
+  },
+  {
+    "landCode": "侯家沟123",
+    "landId": "1943553595693228033",
+    "baseId": "1880899316147232770",
+    "landArea": 2.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟124",
+    "landId": "1943553595730976770",
+    "baseId": "1880899316147232770",
+    "landArea": 1.96,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟125",
+    "landId": "1943553589817008130",
+    "baseId": "1880899316147232770",
+    "landArea": 1.69,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南001",
+    "landId": "1943553595768725505",
+    "baseId": "1942415350671736833",
+    "landArea": 3.52,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南002",
+    "landId": "1943553595802279937",
+    "baseId": "1942415350671736833",
+    "landArea": 1.7,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南003",
+    "landId": "1943553595840028674",
+    "baseId": "1942415350671736833",
+    "landArea": 0.75,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南004",
+    "landId": "1943553595886166018",
+    "baseId": "1942415350671736833",
+    "landArea": 1.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南005",
+    "landId": "1943553595919720450",
+    "baseId": "1942415350671736833",
+    "landArea": 0.66,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南006",
+    "landId": "1943553595957469186",
+    "baseId": "1942415350671736833",
+    "landArea": 3.36,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南007",
+    "landId": "1943553596058132481",
+    "baseId": "1942415350671736833",
+    "landArea": 3.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南008",
+    "landId": "1943553596095881218",
+    "baseId": "1942415350671736833",
+    "landArea": 3.85,
+    "rate": 3.45,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "侯家沟南009",
+    "landId": "1943553596133629953",
+    "baseId": "1942415350671736833",
+    "landArea": 20.2,
+    "rate": 6.16,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 2020.0 g 或 戊唑·咪鲜胺 45% 505.0 ml"
+  },
+  {
+    "landCode": "侯家沟南010",
+    "landId": "1943553596183961602",
+    "baseId": "1942415350671736833",
+    "landArea": 4.55,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南011",
+    "landId": "1943553596230098946",
+    "baseId": "1942415350671736833",
+    "landArea": 2.69,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南012",
+    "landId": "1943553596280430594",
+    "baseId": "1942415350671736833",
+    "landArea": 2.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南013",
+    "landId": "1943553596322373634",
+    "baseId": "1942415350671736833",
+    "landArea": 3.36,
+    "rate": 4.88,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "侯家沟南014",
+    "landId": "1943553596360122370",
+    "baseId": "1942415350671736833",
+    "landArea": 2.6,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南015",
+    "landId": "1943553596410454017",
+    "baseId": "1942415350671736833",
+    "landArea": 1.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南016",
+    "landId": "1943553596448202754",
+    "baseId": "1942415350671736833",
+    "landArea": 2.2,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南017",
+    "landId": "1943553596607586305",
+    "baseId": "1942415350671736833",
+    "landArea": 1.31,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南018",
+    "landId": "1943553596645335041",
+    "baseId": "1942415350671736833",
+    "landArea": 2.92,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南019",
+    "landId": "1943553596678889474",
+    "baseId": "1942415350671736833",
+    "landArea": 6.26,
+    "rate": 35.56,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 626.0 g，戊唑·咪鲜胺 156.5 ml，5% 高效氯氟氰菊酯 156.5 ml，芸苔素 62.6 ml，磷酸二氢钾 626.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南020",
+    "landId": "1943553596712443905",
+    "baseId": "1942415350671736833",
+    "landArea": 3.03,
+    "rate": 47.62,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 303.0 g，戊唑·咪鲜胺 75.8 ml，5% 高效氯氟氰菊酯 75.8 ml，芸苔素 30.3 ml，磷酸二氢钾 303.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南021",
+    "landId": "1943553596741804033",
+    "baseId": "1942415350671736833",
+    "landArea": 3.77,
+    "rate": 21.74,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 377.0 g 或 戊唑·咪鲜胺 45% 94.2 ml"
+  },
+  {
+    "landCode": "侯家沟南022",
+    "landId": "1943553596779552770",
+    "baseId": "1942415350671736833",
+    "landArea": 3.09,
+    "rate": 10.53,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 309.0 g 或 戊唑·咪鲜胺 45% 77.2 ml"
+  },
+  {
+    "landCode": "侯家沟南023",
+    "landId": "1943553596808912898",
+    "baseId": "1942415350671736833",
+    "landArea": 6.05,
+    "rate": 13.51,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 605.0 g 或 戊唑·咪鲜胺 45% 151.2 ml"
+  },
+  {
+    "landCode": "侯家沟南024",
+    "landId": "1943553596842467329",
+    "baseId": "1942415350671736833",
+    "landArea": 2.37,
+    "rate": 58.82,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 237.0 g，戊唑·咪鲜胺 59.2 ml，5% 高效氯氟氰菊酯 59.2 ml，芸苔素 23.7 ml，磷酸二氢钾 237.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南025",
+    "landId": "1943553596871827458",
+    "baseId": "1942415350671736833",
+    "landArea": 3.43,
+    "rate": 28.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 343.0 g，戊唑·咪鲜胺 85.8 ml，5% 高效氯氟氰菊酯 85.8 ml，芸苔素 34.3 ml，磷酸二氢钾 343.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南026",
+    "landId": "1943553596901187585",
+    "baseId": "1942415350671736833",
+    "landArea": 1.7,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南027",
+    "landId": "1943553596930547714",
+    "baseId": "1942415350671736833",
+    "landArea": 2.79,
+    "rate": 79.31,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 279.0 g，戊唑·咪鲜胺 69.8 ml，5% 高效氯氟氰菊酯 69.8 ml，芸苔素 27.9 ml，磷酸二氢钾 279.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南028",
+    "landId": "1943553596993462273",
+    "baseId": "1942415350671736833",
+    "landArea": 2.63,
+    "rate": 47.62,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 263.0 g，戊唑·咪鲜胺 65.8 ml，5% 高效氯氟氰菊酯 65.8 ml，芸苔素 26.3 ml，磷酸二氢钾 263.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南029",
+    "landId": "1943553597039599617",
+    "baseId": "1942415350671736833",
+    "landArea": 2.06,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南030",
+    "landId": "1943553597068959745",
+    "baseId": "1942415350671736833",
+    "landArea": 0.96,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南031",
+    "landId": "1943553597102514177",
+    "baseId": "1942415350671736833",
+    "landArea": 1.38,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南032",
+    "landId": "1943553597131874305",
+    "baseId": "1942415350671736833",
+    "landArea": 3.98,
+    "rate": 65.22,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 398.0 g，戊唑·咪鲜胺 99.5 ml，5% 高效氯氟氰菊酯 99.5 ml，芸苔素 39.8 ml，磷酸二氢钾 398.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南033",
+    "landId": "1943553597165428737",
+    "baseId": "1942415350671736833",
+    "landArea": 3.93,
+    "rate": 7.89,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 393.0 g 或 戊唑·咪鲜胺 45% 98.2 ml"
+  },
+  {
+    "landCode": "侯家沟南034",
+    "landId": "1943553597198983170",
+    "baseId": "1942415350671736833",
+    "landArea": 6.75,
+    "rate": 15.38,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 675.0 g 或 戊唑·咪鲜胺 45% 168.8 ml"
+  },
+  {
+    "landCode": "侯家沟南035",
+    "landId": "1943553597232537602",
+    "baseId": "1942415350671736833",
+    "landArea": 5.89,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南036",
+    "landId": "1943553597261897729",
+    "baseId": "1942415350671736833",
+    "landArea": 2.02,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南037",
+    "landId": "1943553597291257857",
+    "baseId": "1942415350671736833",
+    "landArea": 1.7,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南038",
+    "landId": "1943553597354172418",
+    "baseId": "1942415350671736833",
+    "landArea": 1.87,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南039",
+    "landId": "1943553597324812290",
+    "baseId": "1942415350671736833",
+    "landArea": 1.21,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南040",
+    "landId": "1943553597387726850",
+    "baseId": "1942415350671736833",
+    "landArea": 5.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南041",
+    "landId": "1943553597429669890",
+    "baseId": "1942415350671736833",
+    "landArea": 0.99,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南042",
+    "landId": "1943553597496778754",
+    "baseId": "1942415350671736833",
+    "landArea": 1.11,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南043",
+    "landId": "1943553597547110402",
+    "baseId": "1942415350671736833",
+    "landArea": 1.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南044",
+    "landId": "1943553597601636353",
+    "baseId": "1942415350671736833",
+    "landArea": 2.21,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南045",
+    "landId": "1943553597660356610",
+    "baseId": "1942415350671736833",
+    "landArea": 2.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南046",
+    "landId": "1943553597710688258",
+    "baseId": "1942415350671736833",
+    "landArea": 2.23,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南047",
+    "landId": "1943553597761019905",
+    "baseId": "1942415350671736833",
+    "landArea": 4.66,
+    "rate": 13.16,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 466.0 g 或 戊唑·咪鲜胺 45% 116.5 ml"
+  },
+  {
+    "landCode": "侯家沟南048",
+    "landId": "1943553597802962946",
+    "baseId": "1942415350671736833",
+    "landArea": 3.16,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南049",
+    "landId": "1943553597849100289",
+    "baseId": "1942415350671736833",
+    "landArea": 6.08,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南050",
+    "landId": "1943553597899431937",
+    "baseId": "1942415350671736833",
+    "landArea": 5.15,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南051",
+    "landId": "1943553597941374977",
+    "baseId": "1942415350671736833",
+    "landArea": 2.94,
+    "rate": 61.9,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 294.0 g，戊唑·咪鲜胺 73.5 ml，5% 高效氯氟氰菊酯 73.5 ml，芸苔素 29.4 ml，磷酸二氢钾 294.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南052",
+    "landId": "1943553597983318018",
+    "baseId": "1942415350671736833",
+    "landArea": 5.39,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南054",
+    "landId": "1943553598042038274",
+    "baseId": "1942415350671736833",
+    "landArea": 5.0,
+    "rate": 25.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 500.0 g 或 戊唑·咪鲜胺 45% 125.0 ml"
+  },
+  {
+    "landCode": "侯家沟南055",
+    "landId": "1943553598104952833",
+    "baseId": "1942415350671736833",
+    "landArea": 6.03,
+    "rate": 6.25,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 603.0 g 或 戊唑·咪鲜胺 45% 150.8 ml"
+  },
+  {
+    "landCode": "侯家沟南056",
+    "landId": "1943553598155284482",
+    "baseId": "1942415350671736833",
+    "landArea": 0.79,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南057",
+    "landId": "1943553598193033217",
+    "baseId": "1942415350671736833",
+    "landArea": 3.92,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南058",
+    "landId": "1943553598234976257",
+    "baseId": "1942415350671736833",
+    "landArea": 1.14,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南059",
+    "landId": "1943553598272724994",
+    "baseId": "1942415350671736833",
+    "landArea": 1.55,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南060",
+    "landId": "1943553598310473730",
+    "baseId": "1942415350671736833",
+    "landArea": 1.58,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南061",
+    "landId": "1943553598352416769",
+    "baseId": "1942415350671736833",
+    "landArea": 1.79,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南062",
+    "landId": "1943553598394359810",
+    "baseId": "1942415350671736833",
+    "landArea": 1.89,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南063",
+    "landId": "1943553598432108546",
+    "baseId": "1942415350671736833",
+    "landArea": 7.37,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南064",
+    "landId": "1943553598469857282",
+    "baseId": "1942415350671736833",
+    "landArea": 5.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南065",
+    "landId": "1943553598499217410",
+    "baseId": "1942415350671736833",
+    "landArea": 2.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南066",
+    "landId": "1943553598528577538",
+    "baseId": "1942415350671736833",
+    "landArea": 2.46,
+    "rate": 17.39,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 246.0 g 或 戊唑·咪鲜胺 45% 61.5 ml"
+  },
+  {
+    "landCode": "侯家沟南067",
+    "landId": "1943553598557937666",
+    "baseId": "1942415350671736833",
+    "landArea": 1.6,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南068",
+    "landId": "1943553598583103490",
+    "baseId": "1942415350671736833",
+    "landArea": 7.6,
+    "rate": 10.53,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 760.0 g 或 戊唑·咪鲜胺 45% 190.0 ml"
+  },
+  {
+    "landCode": "侯家沟南069",
+    "landId": "1943553598612463618",
+    "baseId": "1942415350671736833",
+    "landArea": 4.14,
+    "rate": 12.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 414.0 g 或 戊唑·咪鲜胺 45% 103.5 ml"
+  },
+  {
+    "landCode": "侯家沟南070",
+    "landId": "1943553598641823746",
+    "baseId": "1942415350671736833",
+    "landArea": 5.6,
+    "rate": 47.06,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 560.0 g，戊唑·咪鲜胺 140.0 ml，5% 高效氯氟氰菊酯 140.0 ml，芸苔素 56.0 ml，磷酸二氢钾 560.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南071",
+    "landId": "1943553598671183873",
+    "baseId": "1942415350671736833",
+    "landArea": 5.62,
+    "rate": 63.27,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 562.0 g，戊唑·咪鲜胺 140.5 ml，5% 高效氯氟氰菊酯 140.5 ml，芸苔素 56.2 ml，磷酸二氢钾 562.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南072",
+    "landId": "1943553598704738305",
+    "baseId": "1942415350671736833",
+    "landArea": 7.27,
+    "rate": 95.83,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 727.0 g，戊唑·咪鲜胺 181.8 ml，5% 高效氯氟氰菊酯 181.8 ml，芸苔素 72.7 ml，磷酸二氢钾 727.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南073",
+    "landId": "1943553598729904129",
+    "baseId": "1942415350671736833",
+    "landArea": 6.2,
+    "rate": 47.27,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 620.0 g，戊唑·咪鲜胺 155.0 ml，5% 高效氯氟氰菊酯 155.0 ml，芸苔素 62.0 ml，磷酸二氢钾 620.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南074",
+    "landId": "1943553598759264257",
+    "baseId": "1942415350671736833",
+    "landArea": 8.36,
+    "rate": 33.33,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 836.0 g，戊唑·咪鲜胺 209.0 ml，5% 高效氯氟氰菊酯 209.0 ml，芸苔素 83.6 ml，磷酸二氢钾 836.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南075",
+    "landId": "1943553598788624385",
+    "baseId": "1942415350671736833",
+    "landArea": 7.0,
+    "rate": 70.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 700.0 g，戊唑·咪鲜胺 175.0 ml，5% 高效氯氟氰菊酯 175.0 ml，芸苔素 70.0 ml，磷酸二氢钾 700.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南076",
+    "landId": "1943553598817984513",
+    "baseId": "1942415350671736833",
+    "landArea": 4.43,
+    "rate": 100.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 443.0 g，戊唑·咪鲜胺 110.8 ml，5% 高效氯氟氰菊酯 110.8 ml，芸苔素 44.3 ml，磷酸二氢钾 443.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南077",
+    "landId": "1943553598847344642",
+    "baseId": "1942415350671736833",
+    "landArea": 4.55,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南078",
+    "landId": "1943553598872510465",
+    "baseId": "1942415350671736833",
+    "landArea": 6.38,
+    "rate": 16.67,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 638.0 g 或 戊唑·咪鲜胺 45% 159.5 ml"
+  },
+  {
+    "landCode": "侯家沟南079",
+    "landId": "1943553598901870593",
+    "baseId": "1942415350671736833",
+    "landArea": 4.93,
+    "rate": 3.45,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "侯家沟南080",
+    "landId": "1943553598927036417",
+    "baseId": "1942415350671736833",
+    "landArea": 6.2,
+    "rate": 13.16,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 620.0 g 或 戊唑·咪鲜胺 45% 155.0 ml"
+  },
+  {
+    "landCode": "侯家沟南081",
+    "landId": "1943553598952202242",
+    "baseId": "1942415350671736833",
+    "landArea": 6.31,
+    "rate": 53.19,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 631.0 g，戊唑·咪鲜胺 157.8 ml，5% 高效氯氟氰菊酯 157.8 ml，芸苔素 63.1 ml，磷酸二氢钾 631.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南082",
+    "landId": "1943553598981562370",
+    "baseId": "1942415350671736833",
+    "landArea": 7.53,
+    "rate": 79.17,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 753.0 g，戊唑·咪鲜胺 188.2 ml，5% 高效氯氟氰菊酯 188.2 ml，芸苔素 75.3 ml，磷酸二氢钾 753.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南083",
+    "landId": "1943553599006728194",
+    "baseId": "1942415350671736833",
+    "landArea": 7.46,
+    "rate": 64.63,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 746.0 g，戊唑·咪鲜胺 186.5 ml，5% 高效氯氟氰菊酯 186.5 ml，芸苔素 74.6 ml，磷酸二氢钾 746.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南084",
+    "landId": "1943553599036088321",
+    "baseId": "1942415350671736833",
+    "landArea": 3.23,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南085",
+    "landId": "1943553599065448449",
+    "baseId": "1942415350671736833",
+    "landArea": 3.6,
+    "rate": 36.36,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 360.0 g，戊唑·咪鲜胺 90.0 ml，5% 高效氯氟氰菊酯 90.0 ml，芸苔素 36.0 ml，磷酸二氢钾 360.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南086",
+    "landId": "1943553599094808578",
+    "baseId": "1942415350671736833",
+    "landArea": 2.26,
+    "rate": 8.7,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 226.0 g 或 戊唑·咪鲜胺 45% 56.5 ml"
+  },
+  {
+    "landCode": "侯家沟南087",
+    "landId": "1943553599119974401",
+    "baseId": "1942415350671736833",
+    "landArea": 1.4,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南088",
+    "landId": "1943553599145140226",
+    "baseId": "1942415350671736833",
+    "landArea": 3.19,
+    "rate": 6.9,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 319.0 g 或 戊唑·咪鲜胺 45% 79.8 ml"
+  },
+  {
+    "landCode": "侯家沟南089",
+    "landId": "1943553599174500353",
+    "baseId": "1942415350671736833",
+    "landArea": 3.41,
+    "rate": 23.53,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 341.0 g 或 戊唑·咪鲜胺 45% 85.2 ml"
+  },
+  {
+    "landCode": "侯家沟南090",
+    "landId": "1943553604547403777",
+    "baseId": "1942415350671736833",
+    "landArea": 3.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "侯家沟南091",
+    "landId": "1943553604421574658",
+    "baseId": "1942415350671736833",
+    "landArea": 4.9,
+    "rate": 12.5,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 490.0 g 或 戊唑·咪鲜胺 45% 122.5 ml"
+  },
+  {
+    "landCode": "侯家沟南092",
+    "landId": "1943553604446740481",
+    "baseId": "1942415350671736833",
+    "landArea": 4.12,
+    "rate": 44.83,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 412.0 g，戊唑·咪鲜胺 103.0 ml，5% 高效氯氟氰菊酯 103.0 ml，芸苔素 41.2 ml，磷酸二氢钾 412.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南093",
+    "landId": "1943553604467712002",
+    "baseId": "1942415350671736833",
+    "landArea": 2.06,
+    "rate": 57.14,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 206.0 g，戊唑·咪鲜胺 51.5 ml，5% 高效氯氟氰菊酯 51.5 ml，芸苔素 20.6 ml，磷酸二氢钾 206.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南094",
+    "landId": "1943553604484489218",
+    "baseId": "1942415350671736833",
+    "landArea": 2.77,
+    "rate": 26.09,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 277.0 g，戊唑·咪鲜胺 69.2 ml，5% 高效氯氟氰菊酯 69.2 ml，芸苔素 27.7 ml，磷酸二氢钾 277.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南095",
+    "landId": "1943553604509655042",
+    "baseId": "1942415350671736833",
+    "landArea": 2.98,
+    "rate": 35.71,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 298.0 g，戊唑·咪鲜胺 74.5 ml，5% 高效氯氟氰菊酯 74.5 ml，芸苔素 29.8 ml，磷酸二氢钾 298.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "侯家沟南096",
+    "landId": "1943553604530626562",
+    "baseId": "1942415350671736833",
+    "landArea": 1.59,
+    "rate": 23.08,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 159.0 g 或 戊唑·咪鲜胺 45% 39.8 ml"
+  },
+  {
+    "landCode": "冯渠001",
+    "landId": "1943553599992389634",
+    "baseId": "1886244367296888837",
+    "landArea": 4.79,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠002",
+    "landId": "1943553600021749761",
+    "baseId": "1886244367296888837",
+    "landArea": 5.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠003",
+    "landId": "1943553600055304193",
+    "baseId": "1886244367296888837",
+    "landArea": 5.93,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠004",
+    "landId": "1943553600093052929",
+    "baseId": "1886244367296888837",
+    "landArea": 5.36,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠005",
+    "landId": "1943553600118218754",
+    "baseId": "1886244367296888837",
+    "landArea": 3.72,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠006",
+    "landId": "1943553600147578881",
+    "baseId": "1886244367296888837",
+    "landArea": 2.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠007",
+    "landId": "1943553600172744706",
+    "baseId": "1886244367296888837",
+    "landArea": 3.05,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠008",
+    "landId": "1943553600218882049",
+    "baseId": "1886244367296888837",
+    "landArea": 3.6,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠009",
+    "landId": "1943553600248242177",
+    "baseId": "1886244367296888837",
+    "landArea": 1.99,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠010",
+    "landId": "1943553600281796610",
+    "baseId": "1886244367296888837",
+    "landArea": 2.85,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠011",
+    "landId": "1943553600311156737",
+    "baseId": "1886244367296888837",
+    "landArea": 3.1,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠012",
+    "landId": "1943553600340516865",
+    "baseId": "1886244367296888837",
+    "landArea": 3.32,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠013",
+    "landId": "1943553600378265601",
+    "baseId": "1886244367296888837",
+    "landArea": 4.54,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠014",
+    "landId": "1943553600416014337",
+    "baseId": "1886244367296888837",
+    "landArea": 2.16,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠015",
+    "landId": "1943553600466345985",
+    "baseId": "1886244367296888837",
+    "landArea": 2.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠016",
+    "landId": "1943553600491511809",
+    "baseId": "1886244367296888837",
+    "landArea": 3.18,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠017",
+    "landId": "1943553600520871938",
+    "baseId": "1886244367296888837",
+    "landArea": 1.53,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠018",
+    "landId": "1943553600550232066",
+    "baseId": "1886244367296888837",
+    "landArea": 2.36,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠019",
+    "landId": "1943553600596369410",
+    "baseId": "1886244367296888837",
+    "landArea": 2.26,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠020",
+    "landId": "1943553600629923841",
+    "baseId": "1886244367296888837",
+    "landArea": 2.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠021",
+    "landId": "1943553600659283970",
+    "baseId": "1886244367296888837",
+    "landArea": 4.74,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠022",
+    "landId": "1943553600772530177",
+    "baseId": "1886244367296888837",
+    "landArea": 5.45,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠023",
+    "landId": "1943553600801890306",
+    "baseId": "1886244367296888837",
+    "landArea": 1.91,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠024",
+    "landId": "1943553600827056129",
+    "baseId": "1886244367296888837",
+    "landArea": 5.06,
+    "rate": 2.22,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "冯渠025",
+    "landId": "1943553600885776386",
+    "baseId": "1886244367296888837",
+    "landArea": 5.12,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠026",
+    "landId": "1943553600940302337",
+    "baseId": "1886244367296888837",
+    "landArea": 5.01,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠027",
+    "landId": "1943553600969662465",
+    "baseId": "1886244367296888837",
+    "landArea": 7.22,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "冯渠028",
+    "landId": "1943553600994828290",
+    "baseId": "1886244367296888837",
+    "landArea": 6.37,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄001",
+    "landId": "1943553601024188418",
+    "baseId": "1886244367296888833",
+    "landArea": 2.0,
+    "rate": 54.55,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 200.0 g，戊唑·咪鲜胺 50.0 ml，5% 高效氯氟氰菊酯 50.0 ml，芸苔素 20.0 ml，磷酸二氢钾 200.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄002",
+    "landId": "1943553601053548545",
+    "baseId": "1886244367296888833",
+    "landArea": 2.12,
+    "rate": 8.33,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 212.0 g 或 戊唑·咪鲜胺 45% 53.0 ml"
+  },
+  {
+    "landCode": "姜兴庄003",
+    "landId": "1943553601082908674",
+    "baseId": "1886244367296888833",
+    "landArea": 1.78,
+    "rate": 20.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 178.0 g 或 戊唑·咪鲜胺 45% 44.5 ml"
+  },
+  {
+    "landCode": "姜兴庄004",
+    "landId": "1943553601108074498",
+    "baseId": "1886244367296888833",
+    "landArea": 0.59,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄005",
+    "landId": "1943553601137434625",
+    "baseId": "1886244367296888833",
+    "landArea": 2.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄006",
+    "landId": "1943553601162600450",
+    "baseId": "1886244367296888833",
+    "landArea": 2.19,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄007",
+    "landId": "1943553601187766273",
+    "baseId": "1886244367296888833",
+    "landArea": 2.52,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄008",
+    "landId": "1943553601208737794",
+    "baseId": "1886244367296888833",
+    "landArea": 2.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄009",
+    "landId": "1943553601238097921",
+    "baseId": "1886244367296888833",
+    "landArea": 3.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄010",
+    "landId": "1943553601259069441",
+    "baseId": "1886244367296888833",
+    "landArea": 1.07,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄011",
+    "landId": "1943553601284235265",
+    "baseId": "1886244367296888833",
+    "landArea": 2.02,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄012",
+    "landId": "1943553601309401089",
+    "baseId": "1886244367296888833",
+    "landArea": 4.84,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄013",
+    "landId": "1943553601338761218",
+    "baseId": "1886244367296888833",
+    "landArea": 2.78,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄014",
+    "landId": "1943553601359732737",
+    "baseId": "1886244367296888833",
+    "landArea": 2.2,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄015",
+    "landId": "1943553601384898561",
+    "baseId": "1886244367296888833",
+    "landArea": 3.05,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄016",
+    "landId": "1943553601405870082",
+    "baseId": "1886244367296888833",
+    "landArea": 2.98,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄017",
+    "landId": "1943553601431035905",
+    "baseId": "1886244367296888833",
+    "landArea": 1.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄018",
+    "landId": "1943553601452007425",
+    "baseId": "1886244367296888833",
+    "landArea": 2.86,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄019",
+    "landId": "1943553601477173250",
+    "baseId": "1886244367296888833",
+    "landArea": 4.65,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄020",
+    "landId": "1943553601498144770",
+    "baseId": "1886244367296888833",
+    "landArea": 1.53,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄021",
+    "landId": "1943553601519116290",
+    "baseId": "1886244367296888833",
+    "landArea": 2.34,
+    "rate": 10.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 234.0 g 或 戊唑·咪鲜胺 45% 58.5 ml"
+  },
+  {
+    "landCode": "姜兴庄022",
+    "landId": "1943553601556865025",
+    "baseId": "1886244367296888833",
+    "landArea": 4.13,
+    "rate": 22.73,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 413.0 g 或 戊唑·咪鲜胺 45% 103.2 ml"
+  },
+  {
+    "landCode": "姜兴庄023",
+    "landId": "1943553601582030849",
+    "baseId": "1886244367296888833",
+    "landArea": 3.7,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄024",
+    "landId": "1943553601611390977",
+    "baseId": "1886244367296888833",
+    "landArea": 1.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄025",
+    "landId": "1943553601632362497",
+    "baseId": "1886244367296888833",
+    "landArea": 1.24,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄026",
+    "landId": "1943553601653334017",
+    "baseId": "1886244367296888833",
+    "landArea": 2.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄027",
+    "landId": "1943553601674305538",
+    "baseId": "1886244367296888833",
+    "landArea": 7.94,
+    "rate": 6.38,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 794.0 g 或 戊唑·咪鲜胺 45% 198.5 ml"
+  },
+  {
+    "landCode": "姜兴庄028",
+    "landId": "1943553601695277058",
+    "baseId": "1886244367296888833",
+    "landArea": 7.06,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄029",
+    "landId": "1943553601724637186",
+    "baseId": "1886244367296888833",
+    "landArea": 4.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄030",
+    "landId": "1943553601745608706",
+    "baseId": "1886244367296888833",
+    "landArea": 9.82,
+    "rate": 4.62,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "姜兴庄031",
+    "landId": "1943553601766580225",
+    "baseId": "1886244367296888833",
+    "landArea": 7.64,
+    "rate": 29.31,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 764.0 g，戊唑·咪鲜胺 191.0 ml，5% 高效氯氟氰菊酯 191.0 ml，芸苔素 76.4 ml，磷酸二氢钾 764.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄032",
+    "landId": "1943553601791746049",
+    "baseId": "1886244367296888833",
+    "landArea": 1.67,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄033",
+    "landId": "1943553601816911874",
+    "baseId": "1886244367296888833",
+    "landArea": 2.19,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄034",
+    "landId": "1943553601837883394",
+    "baseId": "1886244367296888833",
+    "landArea": 2.8,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄035",
+    "landId": "1943553601858854913",
+    "baseId": "1886244367296888833",
+    "landArea": 4.5,
+    "rate": 11.11,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 450.0 g 或 戊唑·咪鲜胺 45% 112.5 ml"
+  },
+  {
+    "landCode": "姜兴庄036",
+    "landId": "1943553601879826433",
+    "baseId": "1886244367296888833",
+    "landArea": 2.43,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄037",
+    "landId": "1943553601909186561",
+    "baseId": "1886244367296888833",
+    "landArea": 0.47,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄038",
+    "landId": "1943553601930158081",
+    "baseId": "1886244367296888833",
+    "landArea": 0.43,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄039",
+    "landId": "1943553601951129601",
+    "baseId": "1886244367296888833",
+    "landArea": 2.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄040",
+    "landId": "1943553601972101121",
+    "baseId": "1886244367296888833",
+    "landArea": 2.45,
+    "rate": 12.5,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 245.0 g 或 戊唑·咪鲜胺 45% 61.3 ml"
+  },
+  {
+    "landCode": "姜兴庄041",
+    "landId": "1943553601993072642",
+    "baseId": "1886244367296888833",
+    "landArea": 2.0,
+    "rate": 23.53,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 200.0 g 或 戊唑·咪鲜胺 45% 50.0 ml"
+  },
+  {
+    "landCode": "姜兴庄042",
+    "landId": "1943553602014044161",
+    "baseId": "1886244367296888833",
+    "landArea": 1.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄043",
+    "landId": "1943553602039209985",
+    "baseId": "1886244367296888833",
+    "landArea": 2.2,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄044",
+    "landId": "1943553602060181506",
+    "baseId": "1886244367296888833",
+    "landArea": 2.69,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄045",
+    "landId": "1943553602097930242",
+    "baseId": "1886244367296888833",
+    "landArea": 2.06,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄046",
+    "landId": "1943553602081153025",
+    "baseId": "1886244367296888833",
+    "landArea": 2.1,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄047",
+    "landId": "1943553602118901762",
+    "baseId": "1886244367296888833",
+    "landArea": 2.15,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄048",
+    "landId": "1943553602139873282",
+    "baseId": "1886244367296888833",
+    "landArea": 1.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄049",
+    "landId": "1943553602165039105",
+    "baseId": "1886244367296888833",
+    "landArea": 1.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄050",
+    "landId": "1943553602186010626",
+    "baseId": "1886244367296888833",
+    "landArea": 1.75,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄051",
+    "landId": "1943553602206982146",
+    "baseId": "1886244367296888833",
+    "landArea": 2.74,
+    "rate": 47.37,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 274.0 g，戊唑·咪鲜胺 68.5 ml，5% 高效氯氟氰菊酯 68.5 ml，芸苔素 27.4 ml，磷酸二氢钾 274.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄052",
+    "landId": "1943553602227953666",
+    "baseId": "1886244367296888833",
+    "landArea": 2.6,
+    "rate": 62.5,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 260.0 g，戊唑·咪鲜胺 65.0 ml，5% 高效氯氟氰菊酯 65.0 ml，芸苔素 26.0 ml，磷酸二氢钾 260.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄053",
+    "landId": "1943553602248925186",
+    "baseId": "1886244367296888833",
+    "landArea": 1.61,
+    "rate": 33.33,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 161.0 g，戊唑·咪鲜胺 40.2 ml，5% 高效氯氟氰菊酯 40.2 ml，芸苔素 16.1 ml，磷酸二氢钾 161.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄054",
+    "landId": "1943553602278285313",
+    "baseId": "1886244367296888833",
+    "landArea": 1.83,
+    "rate": 62.5,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 183.0 g，戊唑·咪鲜胺 45.8 ml，5% 高效氯氟氰菊酯 45.8 ml，芸苔素 18.3 ml，磷酸二氢钾 183.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄055",
+    "landId": "1943553602299256834",
+    "baseId": "1886244367296888833",
+    "landArea": 3.55,
+    "rate": 73.91,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 355.0 g，戊唑·咪鲜胺 88.8 ml，5% 高效氯氟氰菊酯 88.8 ml，芸苔素 35.5 ml，磷酸二氢钾 355.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄056",
+    "landId": "1943553602324422657",
+    "baseId": "1886244367296888833",
+    "landArea": 3.66,
+    "rate": 62.5,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 366.0 g，戊唑·咪鲜胺 91.5 ml，5% 高效氯氟氰菊酯 91.5 ml，芸苔素 36.6 ml，磷酸二氢钾 366.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄057",
+    "landId": "1943553602345394177",
+    "baseId": "1886244367296888833",
+    "landArea": 1.59,
+    "rate": 18.18,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 159.0 g 或 戊唑·咪鲜胺 45% 39.8 ml"
+  },
+  {
+    "landCode": "姜兴庄058",
+    "landId": "1943553602366365697",
+    "baseId": "1886244367296888833",
+    "landArea": 7.34,
+    "rate": 34.21,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 734.0 g，戊唑·咪鲜胺 183.5 ml，5% 高效氯氟氰菊酯 183.5 ml，芸苔素 73.4 ml，磷酸二氢钾 734.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄059",
+    "landId": "1943553602387337217",
+    "baseId": "1886244367296888833",
+    "landArea": 8.37,
+    "rate": 9.23,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 837.0 g 或 戊唑·咪鲜胺 45% 209.2 ml"
+  },
+  {
+    "landCode": "姜兴庄060",
+    "landId": "1943553602412503041",
+    "baseId": "1886244367296888833",
+    "landArea": 4.6,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄061",
+    "landId": "1943553602437668866",
+    "baseId": "1886244367296888833",
+    "landArea": 5.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄062",
+    "landId": "1943553602454446081",
+    "baseId": "1886244367296888833",
+    "landArea": 2.38,
+    "rate": 50.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 238.0 g，戊唑·咪鲜胺 59.5 ml，5% 高效氯氟氰菊酯 59.5 ml，芸苔素 23.8 ml，磷酸二氢钾 238.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄063",
+    "landId": "1943553602475417602",
+    "baseId": "1886244367296888833",
+    "landArea": 1.3,
+    "rate": 57.14,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 130.0 g，戊唑·咪鲜胺 32.5 ml，5% 高效氯氟氰菊酯 32.5 ml，芸苔素 13.0 ml，磷酸二氢钾 130.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄064",
+    "landId": "1943553602496389121",
+    "baseId": "1886244367296888833",
+    "landArea": 1.07,
+    "rate": 55.56,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 107.0 g，戊唑·咪鲜胺 26.8 ml，5% 高效氯氟氰菊酯 26.8 ml，芸苔素 10.7 ml，磷酸二氢钾 107.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄065",
+    "landId": "1943553602517360641",
+    "baseId": "1886244367296888833",
+    "landArea": 1.57,
+    "rate": 40.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 157.0 g，戊唑·咪鲜胺 39.2 ml，5% 高效氯氟氰菊酯 39.2 ml，芸苔素 15.7 ml，磷酸二氢钾 157.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄066",
+    "landId": "1943553602538332162",
+    "baseId": "1886244367296888833",
+    "landArea": 1.17,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄067",
+    "landId": "1943553602559303682",
+    "baseId": "1886244367296888833",
+    "landArea": 1.26,
+    "rate": 22.22,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 126.0 g 或 戊唑·咪鲜胺 45% 31.5 ml"
+  },
+  {
+    "landCode": "姜兴庄068",
+    "landId": "1943553602580275201",
+    "baseId": "1886244367296888833",
+    "landArea": 1.97,
+    "rate": 28.57,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 197.0 g，戊唑·咪鲜胺 49.2 ml，5% 高效氯氟氰菊酯 49.2 ml，芸苔素 19.7 ml，磷酸二氢钾 197.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄069",
+    "landId": "1943553602601246721",
+    "baseId": "1886244367296888833",
+    "landArea": 2.45,
+    "rate": 45.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 245.0 g，戊唑·咪鲜胺 61.3 ml，5% 高效氯氟氰菊酯 61.3 ml，芸苔素 24.5 ml，磷酸二氢钾 245.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄070",
+    "landId": "1943553602622218241",
+    "baseId": "1886244367296888833",
+    "landArea": 1.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄071",
+    "landId": "1943553602659966977",
+    "baseId": "1886244367296888833",
+    "landArea": 4.87,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄072",
+    "landId": "1943553602680938497",
+    "baseId": "1886244367296888833",
+    "landArea": 3.25,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄073",
+    "landId": "1943553602701910018",
+    "baseId": "1886244367296888833",
+    "landArea": 2.31,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄074",
+    "landId": "1943553602722881538",
+    "baseId": "1886244367296888833",
+    "landArea": 3.9,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄075",
+    "landId": "1943553602743853057",
+    "baseId": "1886244367296888833",
+    "landArea": 3.24,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄076",
+    "landId": "1943553602769018881",
+    "baseId": "1886244367296888833",
+    "landArea": 0.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄077",
+    "landId": "1943553602789990401",
+    "baseId": "1886244367296888833",
+    "landArea": 1.79,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄078",
+    "landId": "1943553602823544834",
+    "baseId": "1886244367296888833",
+    "landArea": 1.2,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄079",
+    "landId": "1943553602844516353",
+    "baseId": "1886244367296888833",
+    "landArea": 1.23,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄080",
+    "landId": "1943553602865487874",
+    "baseId": "1886244367296888833",
+    "landArea": 0.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄081",
+    "landId": "1943553602886459394",
+    "baseId": "1886244367296888833",
+    "landArea": 2.72,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄082",
+    "landId": "1943553602907430914",
+    "baseId": "1886244367296888833",
+    "landArea": 2.71,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄083",
+    "landId": "1943553602928402434",
+    "baseId": "1886244367296888833",
+    "landArea": 2.84,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄084",
+    "landId": "1943553602949373954",
+    "baseId": "1886244367296888833",
+    "landArea": 5.28,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄086",
+    "landId": "1943553602991316994",
+    "baseId": "1886244367296888833",
+    "landArea": 3.41,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄087",
+    "landId": "1943553603012288514",
+    "baseId": "1886244367296888833",
+    "landArea": 3.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄088",
+    "landId": "1943553603033260034",
+    "baseId": "1886244367296888833",
+    "landArea": 3.13,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄089",
+    "landId": "1943553603054231554",
+    "baseId": "1886244367296888833",
+    "landArea": 4.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄090",
+    "landId": "1943553603079397378",
+    "baseId": "1886244367296888833",
+    "landArea": 2.22,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄091",
+    "landId": "1943553603096174594",
+    "baseId": "1886244367296888833",
+    "landArea": 2.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄092",
+    "landId": "1943553603117146114",
+    "baseId": "1886244367296888833",
+    "landArea": 3.46,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄093",
+    "landId": "1943553603142311938",
+    "baseId": "1886244367296888833",
+    "landArea": 3.78,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄094",
+    "landId": "1943553603163283458",
+    "baseId": "1886244367296888833",
+    "landArea": 3.3,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄095",
+    "landId": "1943553603184254977",
+    "baseId": "1886244367296888833",
+    "landArea": 3.4,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄096",
+    "landId": "1943553603209420802",
+    "baseId": "1886244367296888833",
+    "landArea": 2.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄097",
+    "landId": "1943553604568375298",
+    "baseId": "1886244367296888833",
+    "landArea": 1.49,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄098",
+    "landId": "1943553604589346817",
+    "baseId": "1886244367296888833",
+    "landArea": 0.92,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄099",
+    "landId": "1943553604606124034",
+    "baseId": "1886244367296888833",
+    "landArea": 1.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄100",
+    "landId": "1943553604627095554",
+    "baseId": "1886244367296888833",
+    "landArea": 2.19,
+    "rate": 61.54,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 219.0 g，戊唑·咪鲜胺 54.8 ml，5% 高效氯氟氰菊酯 54.8 ml，芸苔素 21.9 ml，磷酸二氢钾 219.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄101",
+    "landId": "1943553604648067074",
+    "baseId": "1886244367296888833",
+    "landArea": 2.59,
+    "rate": 15.79,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 259.0 g 或 戊唑·咪鲜胺 45% 64.8 ml"
+  },
+  {
+    "landCode": "姜兴庄102",
+    "landId": "1943553604664844290",
+    "baseId": "1886244367296888833",
+    "landArea": 4.19,
+    "rate": 60.71,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 419.0 g，戊唑·咪鲜胺 104.8 ml，5% 高效氯氟氰菊酯 104.8 ml，芸苔素 41.9 ml，磷酸二氢钾 419.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄103",
+    "landId": "1943553604685815809",
+    "baseId": "1886244367296888833",
+    "landArea": 2.75,
+    "rate": 61.11,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 275.0 g，戊唑·咪鲜胺 68.8 ml，5% 高效氯氟氰菊酯 68.8 ml，芸苔素 27.5 ml，磷酸二氢钾 275.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄104",
+    "landId": "1943553604710981633",
+    "baseId": "1886244367296888833",
+    "landArea": 1.78,
+    "rate": 9.09,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 178.0 g 或 戊唑·咪鲜胺 45% 44.5 ml"
+  },
+  {
+    "landCode": "姜兴庄105",
+    "landId": "1943553604731953154",
+    "baseId": "1886244367296888833",
+    "landArea": 1.45,
+    "rate": 12.5,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 145.0 g 或 戊唑·咪鲜胺 45% 36.2 ml"
+  },
+  {
+    "landCode": "姜兴庄106",
+    "landId": "1943553604752924673",
+    "baseId": "1886244367296888833",
+    "landArea": 1.64,
+    "rate": 45.45,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 164.0 g，戊唑·咪鲜胺 41.0 ml，5% 高效氯氟氰菊酯 41.0 ml，芸苔素 16.4 ml，磷酸二氢钾 164.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄107",
+    "landId": "1943553604786479106",
+    "baseId": "1886244367296888833",
+    "landArea": 2.3,
+    "rate": 70.59,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 230.0 g，戊唑·咪鲜胺 57.5 ml，5% 高效氯氟氰菊酯 57.5 ml，芸苔素 23.0 ml，磷酸二氢钾 230.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄108",
+    "landId": "1943553604807450626",
+    "baseId": "1886244367296888833",
+    "landArea": 1.83,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄109",
+    "landId": "1943553604828422146",
+    "baseId": "1886244367296888833",
+    "landArea": 1.59,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄110",
+    "landId": "1943553604849393665",
+    "baseId": "1886244367296888833",
+    "landArea": 1.4,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄111",
+    "landId": "1943553604870365186",
+    "baseId": "1886244367296888833",
+    "landArea": 2.03,
+    "rate": 7.69,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 203.0 g 或 戊唑·咪鲜胺 45% 50.7 ml"
+  },
+  {
+    "landCode": "姜兴庄112",
+    "landId": "1943553604891336705",
+    "baseId": "1886244367296888833",
+    "landArea": 0.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "姜兴庄113",
+    "landId": "1943553604908113921",
+    "baseId": "1886244367296888833",
+    "landArea": 1.24,
+    "rate": 30.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 124.0 g，戊唑·咪鲜胺 31.0 ml，5% 高效氯氟氰菊酯 31.0 ml，芸苔素 12.4 ml，磷酸二氢钾 124.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄114",
+    "landId": "1943553604933279746",
+    "baseId": "1886244367296888833",
+    "landArea": 1.8,
+    "rate": 35.71,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 180.0 g，戊唑·咪鲜胺 45.0 ml，5% 高效氯氟氰菊酯 45.0 ml，芸苔素 18.0 ml，磷酸二氢钾 180.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄115",
+    "landId": "1943553604950056961",
+    "baseId": "1886244367296888833",
+    "landArea": 2.49,
+    "rate": 62.5,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 249.0 g，戊唑·咪鲜胺 62.3 ml，5% 高效氯氟氰菊酯 62.3 ml，芸苔素 24.9 ml，磷酸二氢钾 249.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "姜兴庄116",
+    "landId": "1943553604971028482",
+    "baseId": "1886244367296888833",
+    "landArea": 2.39,
+    "rate": 7.14,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 239.0 g 或 戊唑·咪鲜胺 45% 59.8 ml"
+  },
+  {
+    "landCode": "姜兴庄117",
+    "landId": "1943553604987805697",
+    "baseId": "1886244367296888833",
+    "landArea": 1.9,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "寺沟001",
+    "landId": "1943553603477856257",
+    "baseId": "1886244367296888835",
+    "landArea": 1.24,
+    "rate": 66.67,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 124.0 g，戊唑·咪鲜胺 31.0 ml，5% 高效氯氟氰菊酯 31.0 ml，芸苔素 12.4 ml，磷酸二氢钾 124.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "寺沟002",
+    "landId": "1943553603498827778",
+    "baseId": "1886244367296888835",
+    "landArea": 2.52,
+    "rate": 31.25,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 252.0 g，戊唑·咪鲜胺 63.0 ml，5% 高效氯氟氰菊酯 63.0 ml，芸苔素 25.2 ml，磷酸二氢钾 252.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "寺沟003",
+    "landId": "1943553603523993602",
+    "baseId": "1886244367296888835",
+    "landArea": 3.83,
+    "rate": 22.22,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 383.0 g 或 戊唑·咪鲜胺 45% 95.8 ml"
+  },
+  {
+    "landCode": "寺沟004",
+    "landId": "1943553603544965122",
+    "baseId": "1886244367296888835",
+    "landArea": 4.66,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "寺沟005",
+    "landId": "1943553603561742338",
+    "baseId": "1886244367296888835",
+    "landArea": 5.65,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "寺沟006",
+    "landId": "1943553603595296769",
+    "baseId": "1886244367296888835",
+    "landArea": 4.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "寺沟007",
+    "landId": "1943553603616268289",
+    "baseId": "1886244367296888835",
+    "landArea": 7.91,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "寺沟008",
+    "landId": "1943553603637239810",
+    "baseId": "1886244367296888835",
+    "landArea": 2.0,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "岳岔001",
+    "landId": "1943553603230392322",
+    "baseId": "1886244367296888836",
+    "landArea": 3.02,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "岳岔002",
+    "landId": "1943553603251363842",
+    "baseId": "1886244367296888836",
+    "landArea": 0.97,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "岳岔003",
+    "landId": "1943553603276529666",
+    "baseId": "1886244367296888836",
+    "landArea": 5.03,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "岳岔004",
+    "landId": "1943553603297501185",
+    "baseId": "1886244367296888836",
+    "landArea": 4.95,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "岳岔005",
+    "landId": "1943553603318472706",
+    "baseId": "1886244367296888836",
+    "landArea": 9.05,
+    "rate": 82.86,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 905.0 g，戊唑·咪鲜胺 226.3 ml，5% 高效氯氟氰菊酯 226.3 ml，芸苔素 90.5 ml，磷酸二氢钾 905.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔006",
+    "landId": "1943553603339444225",
+    "baseId": "1886244367296888836",
+    "landArea": 7.73,
+    "rate": 94.12,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 773.0 g，戊唑·咪鲜胺 193.2 ml，5% 高效氯氟氰菊酯 193.2 ml，芸苔素 77.3 ml，磷酸二氢钾 773.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔007",
+    "landId": "1943553603381387266",
+    "baseId": "1886244367296888836",
+    "landArea": 9.97,
+    "rate": 85.07,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 997.0 g，戊唑·咪鲜胺 249.3 ml，5% 高效氯氟氰菊酯 249.3 ml，芸苔素 99.7 ml，磷酸二氢钾 997.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔008",
+    "landId": "1943553603402358785",
+    "baseId": "1886244367296888836",
+    "landArea": 9.08,
+    "rate": 87.1,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 908.0 g，戊唑·咪鲜胺 227.0 ml，5% 高效氯氟氰菊酯 227.0 ml，芸苔素 90.8 ml，磷酸二氢钾 908.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔009",
+    "landId": "1943553603423330305",
+    "baseId": "1886244367296888836",
+    "landArea": 9.74,
+    "rate": 35.85,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 974.0 g，戊唑·咪鲜胺 243.5 ml，5% 高效氯氟氰菊酯 243.5 ml，芸苔素 97.4 ml，磷酸二氢钾 974.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔010",
+    "landId": "1943553603360415745",
+    "baseId": "1886244367296888836",
+    "landArea": 7.37,
+    "rate": 100.0,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 737.0 g，戊唑·咪鲜胺 184.2 ml，5% 高效氯氟氰菊酯 184.2 ml，芸苔素 73.7 ml，磷酸二氢钾 737.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "岳岔011",
+    "landId": "1943553603444301826",
+    "baseId": "1886244367296888836",
+    "landArea": 19.35,
+    "rate": 67.42,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 1935.0 g，戊唑·咪鲜胺 483.8 ml，5% 高效氯氟氰菊酯 483.8 ml，芸苔素 193.5 ml，磷酸二氢钾 1935.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "李家寺001",
+    "landId": "1943553603658211330",
+    "baseId": "1886244367296888834",
+    "landArea": 4.34,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺002",
+    "landId": "1943553603683377153",
+    "baseId": "1886244367296888834",
+    "landArea": 6.32,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺003",
+    "landId": "1943553603704348673",
+    "baseId": "1886244367296888834",
+    "landArea": 10.35,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺004",
+    "landId": "1943553603788234754",
+    "baseId": "1886244367296888834",
+    "landArea": 2.57,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺005",
+    "landId": "1943553603809206273",
+    "baseId": "1886244367296888834",
+    "landArea": 3.87,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺006",
+    "landId": "1943553603830177794",
+    "baseId": "1886244367296888834",
+    "landArea": 4.5,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺007",
+    "landId": "1943553603851149314",
+    "baseId": "1886244367296888834",
+    "landArea": 2.86,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺008",
+    "landId": "1943553603876315138",
+    "baseId": "1886244367296888834",
+    "landArea": 3.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺009",
+    "landId": "1943553603897286657",
+    "baseId": "1886244367296888834",
+    "landArea": 6.26,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺010",
+    "landId": "1943553603922452481",
+    "baseId": "1886244367296888834",
+    "landArea": 2.77,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺011",
+    "landId": "1943553603943424002",
+    "baseId": "1886244367296888834",
+    "landArea": 2.67,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺012",
+    "landId": "1943553603964395522",
+    "baseId": "1886244367296888834",
+    "landArea": 1.22,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺013",
+    "landId": "1943553603985367041",
+    "baseId": "1886244367296888834",
+    "landArea": 3.04,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺014",
+    "landId": "1943553604010532866",
+    "baseId": "1886244367296888834",
+    "landArea": 3.77,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺015",
+    "landId": "1943553604035698689",
+    "baseId": "1886244367296888834",
+    "landArea": 4.31,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺016",
+    "landId": "1943553604060864514",
+    "baseId": "1886244367296888834",
+    "landArea": 0.68,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺017",
+    "landId": "1943553604081836034",
+    "baseId": "1886244367296888834",
+    "landArea": 0.61,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺018",
+    "landId": "1943553604102807553",
+    "baseId": "1886244367296888834",
+    "landArea": 4.89,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺019",
+    "landId": "1943553604123779074",
+    "baseId": "1886244367296888834",
+    "landArea": 3.79,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺020",
+    "landId": "1943553604144750593",
+    "baseId": "1886244367296888834",
+    "landArea": 3.74,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺021",
+    "landId": "1943553604165722113",
+    "baseId": "1886244367296888834",
+    "landArea": 4.2,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺022",
+    "landId": "1943553604195082241",
+    "baseId": "1886244367296888834",
+    "landArea": 7.07,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺023",
+    "landId": "1943553604211859457",
+    "baseId": "1886244367296888834",
+    "landArea": 4.13,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺024",
+    "landId": "1943553604232830977",
+    "baseId": "1886244367296888834",
+    "landArea": 4.67,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺025",
+    "landId": "1943553604257996802",
+    "baseId": "1886244367296888834",
+    "landArea": 5.92,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺026",
+    "landId": "1943553604274774018",
+    "baseId": "1886244367296888834",
+    "landArea": 3.22,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺027",
+    "landId": "1943553604295745538",
+    "baseId": "1886244367296888834",
+    "landArea": 2.53,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺028",
+    "landId": "1943553604325105665",
+    "baseId": "1886244367296888834",
+    "landArea": 4.02,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺029",
+    "landId": "1943553604346077186",
+    "baseId": "1886244367296888834",
+    "landArea": 1.16,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺030",
+    "landId": "1943553604362854401",
+    "baseId": "1886244367296888834",
+    "landArea": 2.19,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺031",
+    "landId": "1943553604383825922",
+    "baseId": "1886244367296888834",
+    "landArea": 5.25,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "李家寺032",
+    "landId": "1943553604400603137",
+    "baseId": "1886244367296888834",
+    "landArea": 5.12,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟001",
+    "landId": "1943553605008777217",
+    "baseId": "1942959352610631681",
+    "landArea": 4.36,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟002",
+    "landId": "1943553605033943042",
+    "baseId": "1942959352610631681",
+    "landArea": 2.64,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟003",
+    "landId": "1943553605050720257",
+    "baseId": "1942959352610631681",
+    "landArea": 1.09,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟004",
+    "landId": "1943553605075886081",
+    "baseId": "1942959352610631681",
+    "landArea": 4.56,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟005",
+    "landId": "1943553605096857601",
+    "baseId": "1942959352610631681",
+    "landArea": 2.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟006",
+    "landId": "1943553605117829121",
+    "baseId": "1942959352610631681",
+    "landArea": 6.57,
+    "rate": 16.98,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 657.0 g 或 戊唑·咪鲜胺 45% 164.2 ml"
+  },
+  {
+    "landCode": "杨家沟007",
+    "landId": "1943553605138800641",
+    "baseId": "1942959352610631681",
+    "landArea": 6.96,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟008",
+    "landId": "1943553605159772162",
+    "baseId": "1942959352610631681",
+    "landArea": 7.05,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟009",
+    "landId": "1943553605180743681",
+    "baseId": "1942959352610631681",
+    "landArea": 5.69,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟010",
+    "landId": "1943553605201715201",
+    "baseId": "1942959352610631681",
+    "landArea": 3.51,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟011",
+    "landId": "1943553605218492417",
+    "baseId": "1942959352610631681",
+    "landArea": 2.76,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟012",
+    "landId": "1943553605243658242",
+    "baseId": "1942959352610631681",
+    "landArea": 2.29,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟013",
+    "landId": "1943553605260435457",
+    "baseId": "1942959352610631681",
+    "landArea": 4.09,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟014",
+    "landId": "1943553605281406977",
+    "baseId": "1942959352610631681",
+    "landArea": 3.36,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟015",
+    "landId": "1943553605302378497",
+    "baseId": "1942959352610631681",
+    "landArea": 9.73,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟016",
+    "landId": "1943553605323350017",
+    "baseId": "1942959352610631681",
+    "landArea": 2.46,
+    "rate": 25.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 246.0 g 或 戊唑·咪鲜胺 45% 61.5 ml"
+  },
+  {
+    "landCode": "杨家沟017",
+    "landId": "1943553605344321537",
+    "baseId": "1942959352610631681",
+    "landArea": 2.07,
+    "rate": 5.88,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 207.0 g 或 戊唑·咪鲜胺 45% 51.7 ml"
+  },
+  {
+    "landCode": "杨家沟018",
+    "landId": "1943553605365293057",
+    "baseId": "1942959352610631681",
+    "landArea": 2.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟019",
+    "landId": "1943553605382070273",
+    "baseId": "1942959352610631681",
+    "landArea": 2.81,
+    "rate": 4.76,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "杨家沟020",
+    "landId": "1943553605403041794",
+    "baseId": "1942959352610631681",
+    "landArea": 4.62,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟021",
+    "landId": "1943553605424013314",
+    "baseId": "1942959352610631681",
+    "landArea": 3.74,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "杨家沟022",
+    "landId": "1943553605440790530",
+    "baseId": "1942959352610631681",
+    "landArea": 3.82,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷001",
+    "landId": "1943553599203860482",
+    "baseId": "1886244367296888838",
+    "landArea": 5.98,
+    "rate": 9.52,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 598.0 g 或 戊唑·咪鲜胺 45% 149.5 ml"
+  },
+  {
+    "landCode": "高硷002",
+    "landId": "1943553599241609217",
+    "baseId": "1886244367296888838",
+    "landArea": 2.28,
+    "rate": 36.36,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 228.0 g，戊唑·咪鲜胺 57.0 ml，5% 高效氯氟氰菊酯 57.0 ml，芸苔素 22.8 ml，磷酸二氢钾 228.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "高硷003",
+    "landId": "1943553599275163650",
+    "baseId": "1886244367296888838",
+    "landArea": 2.7,
+    "rate": 25.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 270.0 g 或 戊唑·咪鲜胺 45% 67.5 ml"
+  },
+  {
+    "landCode": "高硷004",
+    "landId": "1943553599333883905",
+    "baseId": "1886244367296888838",
+    "landArea": 3.15,
+    "rate": 4.0,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "高硷005",
+    "landId": "1943553599304523778",
+    "baseId": "1886244367296888838",
+    "landArea": 3.65,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷006",
+    "landId": "1943553599371632642",
+    "baseId": "1886244367296888838",
+    "landArea": 8.81,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷007",
+    "landId": "1943553599396798466",
+    "baseId": "1886244367296888838",
+    "landArea": 8.99,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷008",
+    "landId": "1943553599426158593",
+    "baseId": "1886244367296888838",
+    "landArea": 8.62,
+    "rate": 1.35,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "高硷009",
+    "landId": "1943553599451324418",
+    "baseId": "1886244367296888838",
+    "landArea": 7.47,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷010",
+    "landId": "1943553599476490242",
+    "baseId": "1886244367296888838",
+    "landArea": 6.95,
+    "rate": 2.78,
+    "level": "轻度",
+    "color": "#f1c40f",
+    "spraying_info": "加强田间通风排水，拔除零星病株"
+  },
+  {
+    "landCode": "高硷011",
+    "landId": "1943553599505850369",
+    "baseId": "1886244367296888838",
+    "landArea": 4.83,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷012",
+    "landId": "1943553599547793410",
+    "baseId": "1886244367296888838",
+    "landArea": 3.48,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷013",
+    "landId": "1943553599593930754",
+    "baseId": "1886244367296888838",
+    "landArea": 5.5,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷014",
+    "landId": "1943553599640068097",
+    "baseId": "1886244367296888838",
+    "landArea": 2.77,
+    "rate": 11.11,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 277.0 g 或 戊唑·咪鲜胺 45% 69.2 ml"
+  },
+  {
+    "landCode": "高硷015",
+    "landId": "1943553599686205442",
+    "baseId": "1886244367296888838",
+    "landArea": 5.18,
+    "rate": 45.95,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 518.0 g，戊唑·咪鲜胺 129.5 ml，5% 高效氯氟氰菊酯 129.5 ml，芸苔素 51.8 ml，磷酸二氢钾 518.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "高硷016",
+    "landId": "1943553599719759873",
+    "baseId": "1886244367296888838",
+    "landArea": 3.26,
+    "rate": 20.0,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 326.0 g 或 戊唑·咪鲜胺 45% 81.5 ml"
+  },
+  {
+    "landCode": "高硷017",
+    "landId": "1943553599765897218",
+    "baseId": "1886244367296888838",
+    "landArea": 3.57,
+    "rate": 16.67,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 357.0 g 或 戊唑·咪鲜胺 45% 89.2 ml"
+  },
+  {
+    "landCode": "高硷018",
+    "landId": "1943553599803645954",
+    "baseId": "1886244367296888838",
+    "landArea": 2.17,
+    "rate": 33.33,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 217.0 g，戊唑·咪鲜胺 54.2 ml，5% 高效氯氟氰菊酯 54.2 ml，芸苔素 21.7 ml，磷酸二氢钾 217.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "高硷019",
+    "landId": "1943553599837200386",
+    "baseId": "1886244367296888838",
+    "landArea": 4.02,
+    "rate": 13.33,
+    "level": "中度",
+    "color": "#e67e22",
+    "spraying_info": "叶面防治：甲霜·霜霉威 25% 402.0 g 或 戊唑·咪鲜胺 45% 100.5 ml"
+  },
+  {
+    "landCode": "高硷020",
+    "landId": "1943553599870754818",
+    "baseId": "1886244367296888838",
+    "landArea": 5.61,
+    "rate": 63.16,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 561.0 g，戊唑·咪鲜胺 140.2 ml，5% 高效氯氟氰菊酯 140.2 ml，芸苔素 56.1 ml，磷酸二氢钾 561.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "高硷021",
+    "landId": "1943553599904309249",
+    "baseId": "1886244367296888838",
+    "landArea": 2.12,
+    "rate": 36.84,
+    "level": "重度",
+    "color": "#e74c3c",
+    "spraying_info": "综合防治：甲霜·霜霉威 212.0 g，戊唑·咪鲜胺 53.0 ml，5% 高效氯氟氰菊酯 53.0 ml，芸苔素 21.2 ml，磷酸二氢钾 212.0 g；视情复配或分次喷施，并对严重病区拔除病穗或整株以阻断传播"
+  },
+  {
+    "landCode": "高硷022",
+    "landId": "1943553599933669377",
+    "baseId": "1886244367296888838",
+    "landArea": 2.3,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  },
+  {
+    "landCode": "高硷023",
+    "landId": "1943553599958835202",
+    "baseId": "1886244367296888838",
+    "landArea": 2.76,
+    "rate": 0.0,
+    "level": "健康",
+    "color": "#2ecc71",
+    "spraying_info": "无需防治"
+  }
+]

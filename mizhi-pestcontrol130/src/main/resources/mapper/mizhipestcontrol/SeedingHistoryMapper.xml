@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.nwafu.mizhipestcontrol.mapper.SeedingHistoryMapper">
+
+    <resultMap id="SeedingHistoryResultMap" type="cn.edu.nwafu.mizhipestcontrol.domain.SeedingHistory">
+        <id property="id" column="id"/>
+        <result property="detectionCode" column="detection_code"/>
+        <result property="plotName" column="plot_name"/>
+        <result property="emergenceRate" column="emergence_rate"/>
+        <result property="plotArea" column="plot_area"/>
+        <result property="seedlingLevel" column="seedling_level"/>
+        <result property="locationLng" column="location_lng"/>
+        <result property="locationLat" column="location_lat"/>
+        <result property="totalResupply" column="total_resupply"/>
+        <result property="dataTime" column="data_time"/>
+        <result property="baseName" column="base_name"/>
+        <result property="cropType" column="crop_type"/>
+        <result property="imageType" column="image_type"/>
+        <result property="imageFile" column="image_file"/>
+    </resultMap>
+
+    <select id="selectById" resultMap="SeedingHistoryResultMap">
+        SELECT
+            id,
+            detection_code,
+            plot_name,
+            emergence_rate,
+            plot_area,
+            seedling_level,
+            location_lng,
+            location_lat,
+            total_resupply,
+            data_time,
+            base_name,
+            crop_type,
+            image_type,
+            image_file
+        FROM seeding_history
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectList" resultMap="SeedingHistoryResultMap">
+        SELECT
+            id,
+            detection_code,
+            plot_name,
+            emergence_rate,
+            plot_area,
+            seedling_level,
+            location_lng,
+            location_lat,
+            total_resupply,
+            data_time,
+            base_name,
+            crop_type,
+            image_type,
+            image_file
+        FROM seeding_history
+        <where>
+            <if test="entity != null">
+                <if test="entity.detectionCode != null and entity.detectionCode != ''">
+                    AND detection_code = #{entity.detectionCode}
+                </if>
+                <if test="entity.plotName != null and entity.plotName != ''">
+                    AND plot_name = #{entity.plotName}
+                </if>
+                <if test="entity.cropType != null and entity.cropType != ''">
+                    AND crop_type = #{entity.cropType}
+                </if>
+                <if test="entity.baseName != null and entity.baseName != ''">
+                    AND base_name = #{entity.baseName}
+                </if>
+            </if>
+        </where>
+        ORDER BY id DESC
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO seeding_history (
+            detection_code, plot_name, emergence_rate, plot_area, seedling_level,
+            location_lng, location_lat, total_resupply,
+            data_time, base_name, crop_type, image_type, image_file
+        ) VALUES (
+            #{detectionCode}, #{plotName}, #{emergenceRate}, #{plotArea}, #{seedlingLevel},
+            #{locationLng}, #{locationLat}, #{totalResupply},
+            #{dataTime}, #{baseName}, #{cropType}, #{imageType}, #{imageFile}
+        )
+    </insert>
+
+    <update id="updateById">
+        UPDATE seeding_history
+        <set>
+            <if test="detectionCode != null">detection_code = #{detectionCode},</if>
+            <if test="plotName != null">plot_name = #{plotName},</if>
+            <if test="emergenceRate != null">emergence_rate = #{emergenceRate},</if>
+            <if test="plotArea != null">plot_area = #{plotArea},</if>
+            <if test="seedlingLevel != null">seedling_level = #{seedlingLevel},</if>
+            <if test="locationLng != null">location_lng = #{locationLng},</if>
+            <if test="locationLat != null">location_lat = #{locationLat},</if>
+            <if test="totalResupply != null">total_resupply = #{totalResupply},</if>
+            <if test="dataTime != null">data_time = #{dataTime},</if>
+            <if test="baseName != null">base_name = #{baseName},</if>
+            <if test="cropType != null">crop_type = #{cropType},</if>
+            <if test="imageType != null">image_type = #{imageType},</if>
+            <if test="imageFile != null">image_file = #{imageFile}</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteByIds">
+        DELETE FROM seeding_history
+        WHERE id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!-- 苗情对外接口数据：数据时间、归属基地、作物类别、图像类别、图片地址 -->
+    <select id="selectSeedingInfoList" resultType="cn.edu.nwafu.mizhipestcontrol.domain.bo.SeedingInfoBo">
+        SELECT
+            data_time      AS dataTime,
+            base_name      AS baseName,
+            crop_type      AS cropType,
+            image_type     AS imageCategory,
+            image_file     AS imageUrl
+        FROM seeding_history
+        WHERE data_time IS NOT NULL
+        ORDER BY data_time DESC
+    </select>
+
+</mapper>
+
+

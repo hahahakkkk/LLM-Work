@@ -1,0 +1,62 @@
+/* style.css 更新后的农业监测专业布局 */
+
+.weather-panel {
+  grid-area: weather;
+  height: 100%;
+
+  .my-weather {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+
+.alert-panel {
+  grid-area: alert;
+  height: 100%;
+
+  .my-alert {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*grid-template-rows: repeat(3, 1fr);*/
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+
+.soil-moisture-panel {
+  /*grid-area: soil;*/
+  .soil-moisture-container {
+    display: grid;
+    grid-template-columns: 1fr 0;
+    grid-template-rows: 1fr 0;
+    width: 99%;
+    height: 99%;
+
+    .filter-container,
+    .chart-container {
+      grid-area: 1 / 1 / 2 / 2;
+      /*margin: 2px;*/
+      /*padding: 20px;*/
+    }
+
+    .filter-container {
+      display: flex;
+      margin-left: 130px;
+      margin-top: 5px;
+      z-index: 1000;
+
+      .extra-content {
+        margin-right: 5px;
+      }
+    }
+  }
+}

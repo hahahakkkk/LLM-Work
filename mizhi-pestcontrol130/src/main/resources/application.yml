@@ -1,0 +1,68 @@
+# Tomcat
+server:
+  port: 9808
+
+# MyBatis-Plus
+# 说明：引入 mizhi-pestscience 后，其 domain 里也存在同名 AllStrategy，
+# 若 typeAliasesPackage 扫描范围过大将导致别名冲突；这里显式限定扫描范围。
+mybatis-plus:
+  type-aliases-package: cn.edu.nwafu.mizhipestcontrol.domain
+
+
+# Spring
+spring:
+  application:
+    # ????
+    name: mizhi-pestcontrol
+  profiles:
+    # ????
+    active: @profiles.active@
+--- # nacos ??
+spring:
+  cloud:
+    nacos:
+      # nacos ????
+      server-addr: @nacos.server@
+      username: @nacos.username@
+      password: @nacos.password@
+      discovery:
+        # ???
+        group: @nacos.discovery.group@
+        namespace: ${spring.profiles.active}
+        ip: 10.115.20.244
+        # ip: 172.25.23.187
+#        ip: 172.29.9.106
+      config:
+        # ???
+        group: @nacos.config.group@
+        namespace: ${spring.profiles.active}
+  config:
+    import:
+      - optional:nacos:application-common.yml
+      - optional:nacos:datasource.yml
+      - optional:nacos:${spring.application.name}.yml
+# 文件监控时效（秒）
+temp:
+  image:
+    expire-seconds: 1200 # 20分钟
+
+weather:
+  base-url: https://archive-api.open-meteo.com/v1/archive
+  latitude: 37.75
+  longitude: 110.18
+  timezone: Asia/Shanghai
+  daily:
+    - temperature_2m_max
+    - temperature_2m_min
+    - temperature_2m_mean
+    - relative_humidity_2m_mean
+    - relative_humidity_2m_min
+    - precipitation_sum
+bf-warning:
+  schedule:
+    enabled: true
+    # 每天凌晨 3 点执行
+    cron: "0 0 3 * * ?"
+    zone: Asia/Shanghai
+    # 默认预测昨天（凌晨 3 点时当天数据可能不完整）
+    days-offset: 1

@@ -1,0 +1,2020 @@
+nohup: ignoring input
+14:33:55,907 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONFIG_LOG_FILE]
+14:33:55,907 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:55,930 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@7601bc96 - No compression will be used
+14:33:55,934 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:55,950 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CONFIG_LOG_FILE] - Active log file name: /home/dev/logs/nacos/config.log
+14:33:55,951 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CONFIG_LOG_FILE] - File property is set to [/home/dev/logs/nacos/config.log]
+14:33:55,951 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ASYNC-CONFIG]
+14:33:55,951 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+14:33:55,954 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONFIG_LOG_FILE] to ch.qos.logback.classic.AsyncAppender[ASYNC-CONFIG]
+14:33:55,954 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-CONFIG] - Attaching appender named [CONFIG_LOG_FILE] to AsyncAppender.
+14:33:55,954 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-CONFIG] - Setting discardingThreshold to 0
+14:33:55,963 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [NAMING_LOG_FILE]
+14:33:55,963 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:55,964 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@48a0c8aa - No compression will be used
+14:33:55,964 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:55,965 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[NAMING_LOG_FILE] - Active log file name: /home/dev/logs/nacos/naming.log
+14:33:55,965 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[NAMING_LOG_FILE] - File property is set to [/home/dev/logs/nacos/naming.log]
+14:33:55,965 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ASYNC-NAMING]
+14:33:55,965 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+14:33:55,965 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [NAMING_LOG_FILE] to ch.qos.logback.classic.AsyncAppender[ASYNC-NAMING]
+14:33:55,965 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-NAMING] - Attaching appender named [NAMING_LOG_FILE] to AsyncAppender.
+14:33:55,965 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-NAMING] - Setting discardingThreshold to 0
+14:33:55,969 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [REMOTE_LOG_FILE]
+14:33:55,969 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:55,970 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@6192a5d5 - No compression will be used
+14:33:55,971 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:55,971 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REMOTE_LOG_FILE] - Active log file name: /home/dev/logs/nacos/remote.log
+14:33:55,971 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[REMOTE_LOG_FILE] - File property is set to [/home/dev/logs/nacos/remote.log]
+14:33:55,971 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ASYNC-REMOTE]
+14:33:55,971 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+14:33:55,971 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [REMOTE_LOG_FILE] to ch.qos.logback.classic.AsyncAppender[ASYNC-REMOTE]
+14:33:55,971 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-REMOTE] - Attaching appender named [REMOTE_LOG_FILE] to AsyncAppender.
+14:33:55,971 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-REMOTE] - Setting discardingThreshold to 0
+14:33:55,973 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.client] to INFO
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.client] to false
+14:33:55,975 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-CONFIG] to Logger[com.alibaba.nacos.client]
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.common.labels] to INFO
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.common.labels] to false
+14:33:55,975 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-REMOTE] to Logger[com.alibaba.nacos.common.labels]
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.common.remote.client] to INFO
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.common.remote.client] to false
+14:33:55,975 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-REMOTE] to Logger[com.alibaba.nacos.common.remote.client]
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.shaded.io.grpc] to INFO
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.shaded.io.grpc] to false
+14:33:55,975 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-REMOTE] to Logger[com.alibaba.nacos.shaded.io.grpc]
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.client.config] to INFO
+14:33:55,975 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.client.config] to false
+14:33:55,975 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-CONFIG] to Logger[com.alibaba.nacos.client.config]
+14:33:55,976 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.alibaba.nacos.client.naming] to INFO
+14:33:55,976 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.alibaba.nacos.client.naming] to false
+14:33:55,976 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ASYNC-NAMING] to Logger[com.alibaba.nacos.client.naming]
+14:33:55,976 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@3722c145 - End of configuration.
+14:33:55,976 |-INFO in com.alibaba.nacos.logbackadapter.NacosLogbackConfiguratorAdapterV2@48d5f34e - Registering current configuration as safe fallback point
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-CONFIG] - Worker thread will flush remaining events before exiting. 
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-CONFIG] - Queue flush finished successfully within timeout.
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-NAMING] - Worker thread will flush remaining events before exiting. 
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-NAMING] - Queue flush finished successfully within timeout.
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-REMOTE] - Worker thread will flush remaining events before exiting. 
+14:33:57,636 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNC-REMOTE] - Queue flush finished successfully within timeout.
+14:33:57,641 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4cbc2e3b - URL [jar:nested:/workapce/mizhi1211/mizhi-pestcontrol/target/mizhi-pestcontrol-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/logback-plus.xml] is not of type file
+14:33:57,651 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@2975a9e - Adding [jar:nested:/workapce/mizhi1211/mizhi-pestcontrol/target/mizhi-pestcontrol-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/mizhi-common-web-2.2.2.jar!/logback-common.xml] to configuration watch list.
+14:33:57,651 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4cbc2e3b - URL [jar:nested:/workapce/mizhi1211/mizhi-pestcontrol/target/mizhi-pestcontrol-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/mizhi-common-web-2.2.2.jar!/logback-common.xml] is not of type file
+14:33:57,661 |-WARN in ch.qos.logback.core.joran.action.IncludeAction - Could not find resource corresponding to [logback-logstash.xml]
+14:33:57,661 |-WARN in ch.qos.logback.core.joran.action.IncludeAction - Could not find resource corresponding to [logback-skylog.xml]
+14:33:57,665 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Registering a new ReconfigureOnChangeTask ReconfigureOnChangeTask(born:1765607637664)
+14:33:57,665 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Will scan for changes in [jar:nested:/workapce/mizhi1211/mizhi-pestcontrol/target/mizhi-pestcontrol-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/logback-plus.xml] 
+14:33:57,665 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Setting ReconfigureOnChangeTask scanning period to 1 minutes
+14:33:57,673 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [console]
+14:33:57,673 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:33:57,673 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:57,674 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [file_console]
+14:33:57,674 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:57,676 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1986001684 - No compression will be used
+14:33:57,677 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1986001684 - Will use the pattern logs/mizhi-pestcontrol/console.%d{yyyy-MM-dd}.log for the active file
+14:33:57,683 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/mizhi-pestcontrol/console.%d{yyyy-MM-dd}.log'.
+14:33:57,683 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+14:33:57,684 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2025-12-13T06:33:57.682Z
+14:33:57,685 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:57,688 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_console] - Active log file name: logs/mizhi-pestcontrol/console.log
+14:33:57,688 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_console] - File property is set to [logs/mizhi-pestcontrol/console.log]
+14:33:57,688 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [file_info]
+14:33:57,688 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:57,689 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1465263219 - No compression will be used
+14:33:57,689 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1465263219 - Will use the pattern logs/mizhi-pestcontrol/info.%d{yyyy-MM-dd}.log for the active file
+14:33:57,689 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/mizhi-pestcontrol/info.%d{yyyy-MM-dd}.log'.
+14:33:57,689 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+14:33:57,690 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2025-12-13T06:33:57.682Z
+14:33:57,690 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:57,691 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - Active log file name: logs/mizhi-pestcontrol/info.log
+14:33:57,691 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_info] - File property is set to [logs/mizhi-pestcontrol/info.log]
+14:33:57,691 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [file_error]
+14:33:57,691 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:33:57,692 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2050360660 - No compression will be used
+14:33:57,692 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2050360660 - Will use the pattern logs/mizhi-pestcontrol/error.%d{yyyy-MM-dd}.log for the active file
+14:33:57,692 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/mizhi-pestcontrol/error.%d{yyyy-MM-dd}.log'.
+14:33:57,692 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+14:33:57,693 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2025-12-12T09:38:44.655Z
+14:33:57,693 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:33:57,693 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - Active log file name: logs/mizhi-pestcontrol/error.log
+14:33:57,693 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file_error] - File property is set to [logs/mizhi-pestcontrol/error.log]
+14:33:57,693 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [async_info]
+14:33:57,693 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+14:33:57,694 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [file_info] to ch.qos.logback.classic.AsyncAppender[async_info]
+14:33:57,694 |-INFO in ch.qos.logback.classic.AsyncAppender[async_info] - Attaching appender named [file_info] to AsyncAppender.
+14:33:57,694 |-INFO in ch.qos.logback.classic.AsyncAppender[async_info] - Setting discardingThreshold to 0
+14:33:57,694 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [async_error]
+14:33:57,694 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+14:33:57,694 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [file_error] to ch.qos.logback.classic.AsyncAppender[async_error]
+14:33:57,694 |-INFO in ch.qos.logback.classic.AsyncAppender[async_error] - Attaching appender named [file_error] to AsyncAppender.
+14:33:57,694 |-INFO in ch.qos.logback.classic.AsyncAppender[async_error] - Setting discardingThreshold to 0
+14:33:57,694 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+14:33:57,694 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@424de326 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+14:33:57,695 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [async_info] to Logger[ROOT]
+14:33:57,695 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [async_error] to Logger[ROOT]
+14:33:57,695 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [file_console] to Logger[ROOT]
+14:33:57,695 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+14:33:57,695 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [console] to Logger[ROOT]
+14:33:57,695 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@4bc33720 - End of configuration.
+14:33:57,695 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@2dd0f797 - Registering current configuration as safe fallback point
+
+[31m2025-12-13 14:33:57[0;39m [32m[background-preinit][0;39m [34mINFO [0;39m [1;35mo.h.validator.internal.util.Version
+[0;39m - HV000001: Hibernate Validator 8.0.1.Final
+
+
+ :: Dubbo (v3.2.14) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+Spring Boot Version: 3.2.11
+Spring Application Name: mizhi-pestcontrol
+            _             _         _              _ __                    _                               _                        _
+  _ __     (_)      ___  | |_      (_)     ___    | '_ \   ___     ___    | |_     __      ___    _ _     | |_      _ _    ___     | |
+ | '  \    | |     |_ /  | ' \     | |    |___|   | .__/  / -_)   (_-<    |  _|   / _|    / _ \  | ' \    |  _|    | '_|  / _ \    | |
+ |_|_|_|  _|_|_   _/__|  |_||_|   _|_|_   _____   |_|__   \___|   /__/_   _\__|   \__|_   \___/  |_||_|   _\__|   _|_|_   \___/   _|_|_
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|     |_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+[31m2025-12-13 14:33:58[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.m.MizhiPestcontrolApplication
+[0;39m - Starting MizhiPestcontrolApplication using Java 17.0.17 with PID 869723 (/workapce/mizhi1211/mizhi-pestcontrol/target/mizhi-pestcontrol-0.0.1-SNAPSHOT.jar started by dev in /workapce/mizhi1211/mizhi-pestcontrol)
+[31m2025-12-13 14:33:58[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.m.MizhiPestcontrolApplication
+[0;39m - The following 1 profile is active: "dev"
+[31m2025-12-13 14:33:58[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.a.c.n.c.NacosConfigDataLoader
+[0;39m - [Nacos Config] Load config[dataId=mizhi-pestcontrol.yml, group=DEFAULT_GROUP] success
+[31m2025-12-13 14:33:58[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.a.c.n.c.NacosConfigDataLoader
+[0;39m - [Nacos Config] Load config[dataId=datasource.yml, group=DEFAULT_GROUP] success
+[31m2025-12-13 14:33:58[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.a.c.n.c.NacosConfigDataLoader
+[0;39m - [Nacos Config] Load config[dataId=application-common.yml, group=DEFAULT_GROUP] success
+[31m2025-12-13 14:34:04[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mio.undertow.servlet
+[0;39m - Initializing Spring embedded WebApplicationContext
+[31m2025-12-13 14:34:05[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource detect P6SPY plugin and enabled it
+[31m2025-12-13 14:34:05[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Starting...
+[31m2025-12-13 14:34:06[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.pool.HikariPool
+[0;39m - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c586bb6
+[31m2025-12-13 14:34:06[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Start completed.
+[31m2025-12-13 14:34:06[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource - add a datasource named [master] success
+[31m2025-12-13 14:34:06[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.8 
+[31m2025-12-13 14:34:07[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.c.r.config.RedisConfiguration
+[0;39m - 初始化 redis 配置
+[31m2025-12-13 14:34:07[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35morg.redisson.Version
+[0;39m - Redisson 3.37.0
+[31m2025-12-13 14:34:07[0;39m [32m[redisson-netty-1-4][0;39m [34mINFO [0;39m [1;35mo.r.connection.ConnectionsHolder
+[0;39m - 1 connections initialized for 172.25.23.186/172.25.23.186:6379
+[31m2025-12-13 14:34:07[0;39m [32m[redisson-netty-1-3][0;39m [34mINFO [0;39m [1;35mo.r.connection.ConnectionsHolder
+[0;39m - 8 connections initialized for 172.25.23.186/172.25.23.186:6379
+[31m2025-12-13 14:34:08[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.m.s.impl.IdentifyServiceImpl
+[0;39m - 启动任务名额清理器: 每 60 秒检查一次过期名额
+[31m2025-12-13 14:34:09[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.c.json.config.JacksonConfig
+[0;39m - 初始化 jackson 配置
+____ ____    ___ ____ _  _ ____ _  _ 
+[__  |__| __  |  |  | |_/  |___ |\ | 
+___] |  |     |  |__| | \_ |___ | \| 
+https://sa-token.cc (v1.39.0)
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mio.undertow
+[0;39m - starting server: Undertow - 2.3.17.Final
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35morg.xnio
+[0;39m - XNIO version 3.8.16.Final
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35morg.xnio.nio
+[0;39m - XNIO NIO Implementation Version 3.8.16.Final
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35morg.jboss.threads
+[0;39m - JBoss Threads version 3.5.0.Final
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mio.undertow
+[0;39m - stopping server: Undertow - 2.3.17.Final
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [31mWARN [0;39m [1;35mo.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+[0;39m - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.e.n.c.core.config.ThreadPoolConfig
+[0;39m - ====关闭后台任务任务线程池====
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource start closing ....
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Shutdown initiated...
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Shutdown completed.
+[31m2025-12-13 14:34:11[0;39m [32m[main][0;39m [34mINFO [0;39m [1;35mc.b.d.d.d.DefaultDataSourceD[31m2025-12-13 14:34:22[0;39m [32m[XNIO-1 task-2][0;39m [34mINFO [0;39m [1;35mio.undertow.servlet
+[0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[31m2025-12-13 14:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 14:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 14:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 14:54:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 14:59:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:14:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:19:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:24:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:29:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:34:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:49:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:54:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 15:59:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:04:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:09:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:14:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:19:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:24:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:29:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:34:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:49:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:54:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 16:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 17:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 18:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 19:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 20:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 21:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 22:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:14:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:19:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:24:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:29:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:34:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:49:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:54:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-13 23:59:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:04:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:09:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:14:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:19:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:24:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:29:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:34:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:49:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 00:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:39:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:44:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:49:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 01:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 02:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 03:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 04:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 05:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 06:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 07:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 08:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?22 ms 2025-12-14 09:38:22
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+ Consume Time?1 ms 2025-12-14 09:38:37
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?2 ms 2025-12-14 09:38:37
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?1 ms 2025-12-14 09:38:37
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-14 09:38:45
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-14 09:38:45
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+[31m2025-12-14 09:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?1 ms 2025-12-14 09:41:04
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+[31m2025-12-14 09:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 09:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 10:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:44:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:49:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:54:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 11:59:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:14:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:19:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:24:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:29:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:34:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:49:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:54:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 12:59:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:04:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:09:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:14:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:19:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:24:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:29:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:34:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:39:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:44:02[0;39m [32m[schedule-pool-5][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 13:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:14:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:19:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:24:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:29:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:34:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:39:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 14:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:14:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:19:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:24:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:29:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:34:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:39:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 15:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:14:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:19:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:24:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:29:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:34:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:39:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 16:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:14:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:19:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:24:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?1 ms 2025-12-14 17:24:02
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-14 17:24:02
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-14 17:24:03
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000'
+
+[31m2025-12-14 17:29:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:34:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:39:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 17:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?1 ms 2025-12-14 18:11:49
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+ Consume Time?1 ms 2025-12-14 18:11:54
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-14 18:11:54
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-14 18:11:54
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-14 18:11:58
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-14 18:11:58
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?2 ms 2025-12-14 18:12:13
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+[31m2025-12-14 18:14:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:19:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:24:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:29:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:34:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:39:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:44:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:49:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:54:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 18:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 19:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-14 20:15:43
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (1882020378455130113))
+
+ Consume Time?0 ms 2025-12-14 20:15:43
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000' AND (create_dept IN (1882020378455130113))
+
+ Consume Time?1 ms 2025-12-14 20:16:59
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (1882020378455130113)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+ Consume Time?1 ms 2025-12-14 20:17:03
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (1882020378455130113))
+
+[31m2025-12-14 20:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 20:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 21:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:24:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:29:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:34:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:39:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:44:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:49:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:54:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 22:59:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:04:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:09:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:14:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:19:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:24:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:29:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:34:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:39:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:44:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:49:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:54:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-14 23:59:02[0;39m [32m[schedule-pool-6][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:04:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:09:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:14:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:19:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:24:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:29:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:34:02[0;39m [32m[schedule-pool-8][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:39:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:44:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:49:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:54:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 00:59:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:04:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:09:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:14:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:19:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:24:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:29:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:34:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:39:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:44:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:49:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:54:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 01:59:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:04:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:09:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:14:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:19:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:24:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:29:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:34:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:39:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:44:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:49:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:54:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 02:59:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:04:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:09:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:14:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:19:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:24:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:29:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:34:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:39:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 03:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 04:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 05:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:04:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:09:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:14:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:19:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:24:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:29:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:34:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:39:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:44:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:49:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:54:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 06:59:02[0;39m [32m[schedule-pool-7][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:04:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:09:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:14:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:19:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:24:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:29:02[0;39m [32m[schedule-pool-1][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:34:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:39:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:44:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:49:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:54:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 07:59:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:04:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:09:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:14:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:19:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:24:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:29:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:34:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:39:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:44:02[0;39m [32m[schedule-pool-4][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:49:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:54:02[0;39m [32m[schedule-pool-9][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 08:59:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:04:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:09:02[0;39m [32m[schedule-pool-2][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:14:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:19:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:24:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:29:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:34:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:39:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:44:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:49:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:54:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 09:59:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-15 10:03:14
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-15 10:03:14
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-15 10:03:15
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+[31m2025-12-15 10:04:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:09:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:14:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:19:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:24:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:29:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:34:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:39:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:44:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:49:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:54:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 10:59:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:04:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?1 ms 2025-12-15 11:04:25
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:04:25
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:04:26
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:04:26
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:04:26
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:04:26
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:04:27
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:04:27
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?3 ms 2025-12-15 11:04:57
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+ Consume Time?0 ms 2025-12-15 11:06:01
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:06:08
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode, GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases, CASE WHEN SUM(disease_type = '?????') > 0 AND SUM(disease_type LIKE '%??%') > 0 THEN 3 WHEN SUM(disease_type = '?????') > 0 THEN 1 WHEN SUM(disease_type LIKE '%??%') > 0 THEN 2 ELSE 0 END AS diseaseCode FROM plant_results WHERE (disease_type = '?????' OR disease_type LIKE '%??%') AND tenant_id = '000000' AND (create_dept IN (102)) GROUP BY plot_id, plot_code ORDER BY plot_code
+
+ Consume Time?0 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:06:31
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT IFNULL(AVG(emergence_rate), 0) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE DATE(create_time) = CURDATE() AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE emergence_rate < 80.0 AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?2 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT COUNT(DISTINCT plot_name) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+[31m2025-12-15 11:07:56[0;39m [32m[XNIO-1 task-4][0;39m [1;31mERROR[0;39m [1;35mc.e.n.c.w.h.GlobalExceptionHandler
+[0;39m - 请求地址'/sowingInfo/getSowingInfo',发生未知异常.
+org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'baseName' for method parameter type String is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:220)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.edu.nwafu.common.web.filter.XssFilter.doFilter(XssFilter.java:49)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:276)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:132)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:256)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:101)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:395)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1512)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+ Consume Time?0 ms 2025-12-15 11:07:56
+ Execute SQL?SELECT IFNULL(AVG(emergence_rate), 0) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE DATE(create_time) = CURDATE() AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE emergence_rate < 80.0 AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(DISTINCT plot_name) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:07:57
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+[31m2025-12-15 11:09:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-15 11:10:24
+ Execute SQL?SELECT COUNT(*) AS total FROM pest_area_detection WHERE tenant_id = '000000'
+
+ Consume Time?1 ms 2025-12-15 11:10:24
+ Execute SQL?SELECT id, base_name, plot_name, longitude, latitude, disease_type, incidence_rate, rgb_original_image, tif_original_image, rgb_result_image, description, base_id, plot_id, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM pest_area_detection WHERE tenant_id = '000000' LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:10:24
+ Execute SQL?SELECT plot_id AS plotId, plot_code AS plotCode FROM plant_results WHERE disease_type LIKE '%???%' AND tenant_id = '000000'
+
+[31m2025-12-15 11:14:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:19:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT IFNULL(AVG(emergence_rate), 0) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE DATE(create_time) = CURDATE() AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE emergence_rate < 80.0 AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:10
+ Execute SQL?SELECT COUNT(DISTINCT plot_name) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT IFNULL(AVG(emergence_rate), 0) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE DATE(create_time) = CURDATE() AND tenant_id = '000000' AND (create_dept IN (102))
+
+[31m2025-12-15 11:23:11[0;39m [32m[XNIO-1 task-2][0;39m [1;31mERROR[0;39m [1;35mc.e.n.c.w.h.GlobalExceptionHandler
+[0;39m - 请求地址'/sowingInfo/getSowingInfo',发生未知异常.
+org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'baseName' for method parameter type String is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:220)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.edu.nwafu.common.web.filter.XssFilter.doFilter(XssFilter.java:49)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:276)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:132)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:256)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:101)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:395)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE emergence_rate < 80.0 AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(DISTINCT plot_name) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:11
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT IFNULL(AVG(emergence_rate), 0) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE DATE(create_time) = CURDATE() AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT COUNT(*) FROM guzi_emergence_history WHERE emergence_rate < 80.0 AND tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT COUNT(DISTINCT plot_name) FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+[31m2025-12-15 11:23:16[0;39m [32m[XNIO-1 task-4][0;39m [1;31mERROR[0;39m [1;35mc.e.n.c.w.h.GlobalExceptionHandler
+[0;39m - 请求地址'/sowingInfo/getSowingInfo',发生未知异常.
+org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'baseName' for method parameter type String is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:220)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaServletFilter.doFilter(SaServletFilter.java:150)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.edu.nwafu.common.web.filter.XssFilter.doFilter(XssFilter.java:49)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:276)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:132)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:256)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:101)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:395)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1538)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:16
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:17
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:23:17
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:23:17
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:23:17
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+[31m2025-12-15 11:24:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:25:16
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:25:18
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:25:18
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:25:18
+ Execute SQL?SELECT COUNT(*) AS total FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?1 ms 2025-12-15 11:25:18
+ Execute SQL?SELECT id, base_name, inspector_user, plot_name, base_id, plot_id, longitude, latitude, emergence_rate, total_seedlings, plot_area, seedling_density, origin_image, result_image, create_time, tenant_id, create_dept, create_by, update_by, update_time FROM guzi_emergence_history WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+[31m2025-12-15 11:29:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:34:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:39:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+ Consume Time?0 ms 2025-12-15 11:39:05
+ Execute SQL?SELECT COUNT(*) AS total FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:39:05
+ Execute SQL?SELECT id, base_name, variety, sowing_start_date, sowing_end_date, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 2147483647
+
+ Consume Time?0 ms 2025-12-15 11:39:29
+ Execute SQL?SELECT COUNT(*) AS total FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:39:29
+ Execute SQL?SELECT id, base_name, variety, sowing_start_date, sowing_end_date, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 10
+
+ Consume Time?1 ms 2025-12-15 11:39:40
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:39:40
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 10
+
+ Consume Time?0 ms 2025-12-15 11:40:03
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:03
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 10
+
+ Consume Time?0 ms 2025-12-15 11:40:09
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:09
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 30
+
+ Consume Time?0 ms 2025-12-15 11:40:12
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:12
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 30,30
+
+ Consume Time?0 ms 2025-12-15 11:40:17
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:17
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 60,30
+
+ Consume Time?0 ms 2025-12-15 11:40:20
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:20
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 90,30
+
+ Consume Time?0 ms 2025-12-15 11:40:21
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:21
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 120,30
+
+ Consume Time?0 ms 2025-12-15 11:40:24
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:40:24
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 150,30
+
+ Consume Time?0 ms 2025-12-15 11:41:06
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:41:06
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 10
+
+ Consume Time?0 ms 2025-12-15 11:41:09
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:41:09
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 460,10
+
+ Consume Time?0 ms 2025-12-15 11:41:13
+ Execute SQL?SELECT COUNT(*) AS total FROM land_change_analysis WHERE tenant_id = '000000'
+
+ Consume Time?0 ms 2025-12-15 11:41:13
+ Execute SQL?SELECT id, base_id, base_name, land_id, land_code, land_area_mu, increased_area_mu, decreased_area_mu, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM land_change_analysis WHERE tenant_id = '000000' LIMIT 10
+
+ Consume Time?0 ms 2025-12-15 11:41:34
+ Execute SQL?SELECT COUNT(*) AS total FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102))
+
+ Consume Time?0 ms 2025-12-15 11:41:34
+ Execute SQL?SELECT id, base_name, variety, sowing_start_date, sowing_end_date, tenant_id, create_dept, create_by, create_time, update_by, update_time FROM sowing_predict WHERE tenant_id = '000000' AND (create_dept IN (102)) LIMIT 10
+
+[31m2025-12-15 11:41:36[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.c.IdentifyController
+[0;39m - 获取最佳播种期依据图，请求参数: {variety=米谷一号, variety_area=侯家沟}
+[31m2025-12-15 11:41:36[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.s.impl.IdentifyServiceImpl
+[0;39m - 品种名称映射: 米谷一号 -> A
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35mc.e.n.common.oss.factory.OssFactory
+[0;39m - 创建OSS实例 key => minio
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - Transfer initiated...
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - |                    | 0.0%
+[31m2025-12-15 11:41:38[0;39m [32m[Thread-34][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - |====================| 100.0%
+[31m2025-12-15 11:41:38[0;39m [32m[sdk-async-response-0-1][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - Transfer complete!
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - Transfer initiated...
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - |                    | 0.0%
+[31m2025-12-15 11:41:38[0;39m [32m[Thread-36][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - |====================| 100.0%
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35ms.a.a.t.s.p.LoggingTransferListener
+[0;39m - Transfer complete!
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 监控图像地址: http://172.25.23.186:9000/ls-bkt/2025/12/15/6ad355accde042d898191d45528cb680.png, 有效期: 1200秒
+[31m2025-12-15 11:41:38[0;39m [32m[XNIO-1 task-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 监控图像地址: http://172.25.23.186:9000/ls-bkt/2025/12/15/b24cab9dd0cc4f54850813ea5d6f483f.png, 有效期: 1200秒
+[31m2025-12-15 11:44:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:44:28[0;39m [32m[XNIO-1 task-3][0;39m [31mWARN [0;39m [1;35mo.s.b.a.health.HealthEndpointSupport
+[0;39m - Health contributor org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$AdaptedReactiveHealthContributors$1 (redis) took 14031ms to respond
+[31m2025-12-15 11:49:02[0;39m [32m[schedule-pool-3][0;39m [34mINFO [0;39m [1;35mc.e.n.m.service.ImageMonitorService
+[0;39m - 定时清理任务执行......
+[31m2025-12-15 11:50:06[0;39m [32m[Thread-6][0;39m [31mWARN [0;39m [1;35mc.a.nacos.common.notify.NotifyCenter
+[0;39m - [NotifyCenter] Start destroying Publisher
+[31m2025-12-15 11:50:06[0;39m [32m[Thread-4][0;39m [31mWARN [0;39m [1;35mc.a.n.c.http.HttpClientBeanHolder
+[0;39m - [HttpClientBeanHolder] Start destroying common HttpClient
+[31m2025-12-15 11:50:06[0;39m [32m[Thread-6][0;39m [31mWARN [0;39m [1;35mc.a.nacos.common.notify.NotifyCenter
+[0;39m - [NotifyCenter] Destruction of the end
+[31m2025-12-15 11:50:06[0;39m [32m[Thread-4][0;39m [31mWARN [0;39m [1;35mc.a.n.c.http.HttpClientBeanHolder
+[0;39m - [HttpClientBeanHolder] Destruction of the end
+[31m2025-12-15 11:50:06[0;39m [32m[NettyServerWorker-6-1][0;39m [31mWARN [0;39m [1;35mo.a.d.r.transport.AbstractServer
+[0;39m -  [DUBBO] All clients has disconnected from /172.25.23.190:20880. You can graceful shutdown now., dubbo version: 3.2.14, current host: 172.25.23.190, error code: 99-0. This may be caused by unknown error in remoting module, go to https://dubbo.apache.org/faq/99/0 to find instructions. 
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mio.undertow
+[0;39m - stopping server: Undertow - 2.3.17.Final
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mio.undertow.servlet
+[0;39m - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.a.c.n.r.NacosServiceRegistry
+[0;39m - De-registering from Nacos Server now...
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.a.c.n.r.NacosServiceRegistry
+[0;39m - De-registration finished.
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.e.n.c.core.config.ThreadPoolConfig
+[0;39m - ====关闭后台任务任务线程池====
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource start closing ....
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Shutdown initiated...
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource
+[0;39m - master - Shutdown completed.
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.b.d.d.d.DefaultDataSourceDestroyer
+[0;39m - dynamic-datasource close the datasource named [master] success,
+[31m2025-12-15 11:50:08[0;39m [32m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [1;35mc.b.d.d.DynamicRoutingDataSource
+[0;39m - dynamic-datasource all closed success,bye

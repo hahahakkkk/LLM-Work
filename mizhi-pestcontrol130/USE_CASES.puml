@@ -1,0 +1,54 @@
+@startuml
+left to right direction
+skinparam componentStyle uml2
+
+actor "Frontend User" as Frontend
+actor Admin
+actor "Expert Knowledge Service" as ExpertService
+actor "RemoteSense Service" as RemoteSense
+actor "System / Scheduler" as System
+
+rectangle "mizhi-pestcontrol" {
+  usecase UC_Farmland as "Manage Farmlands\n(/farmland/*)"
+  usecase UC_Plant as "Manage Plants\n(/plant/*)"
+  usecase UC_Identify as "Identify Plant\n(/identify/rgb /diseaseId /pestId)"
+  usecase UC_Growth as "Detect Growth Stage\n(/identify/wh)"
+  usecase UC_Emergence as "Emergence Rate & Report\n(/identify/er, /emergenceHistory/*)"
+  usecase UC_AreaDetect as "Area Detection (async)\n(submit/task + /areaDetection/*)"
+  usecase UC_Model as "Manage Models\n(/identifyModel/*)"
+  usecase UC_Results as "Manage Identify Results\n(/PlantResults/*)"
+  usecase UC_LandChange as "Land Change Analysis\n(/changeAnalysis/*)"
+  usecase UC_RemoteSense as "Remote Sense Proxy\n(/proxy/remote-sense/list)"
+  usecase UC_Predict as "Sowing Predict\n(/predict/*)"
+  usecase UC_Record as "Sowing Record & Growth Period\n(/record/* /record/period*)"
+  usecase UC_SowingInfo as "Sowing Info Aggregate\n(/sowingInfo/getSowingInfo)"
+}
+
+Frontend --> UC_Farmland
+Frontend --> UC_Plant
+Frontend --> UC_Identify
+Frontend --> UC_Growth
+Frontend --> UC_Emergence
+Frontend --> UC_AreaDetect
+Frontend --> UC_Results
+Frontend --> UC_Predict
+Frontend --> UC_Record
+Frontend --> UC_SowingInfo
+
+Admin --> UC_Farmland : manage/export
+Admin --> UC_Plant : manage/export
+Admin --> UC_Model : manage
+Admin --> UC_Results : manage/export
+Admin --> UC_Predict : manage/export
+Admin --> UC_LandChange : manage/export
+
+ExpertService --> UC_Identify : provide strategies
+RemoteSense --> UC_RemoteSense : provide data
+System --> UC_AreaDetect : schedule/cleanup
+
+note right of UC_AreaDetect
+  Asynchronous task submission, polling, and
+  result persistence; subject to concurrency quota.
+end note
+
+@enduml

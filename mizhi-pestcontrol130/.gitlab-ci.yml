@@ -1,0 +1,117 @@
+# 定义CI执行的阶段，这里可以自己根据情况定义多少个阶段
+stages:
+  - build
+  - push_image
+  - deploy
+
+# 定义全局变量
+variables:
+  PROJECT: "mizhi-pestcontrol"
+  IMAGE_NAME: "hub.nwafu.edu.cn/library/mizhi/mizhi-pestcontrol"
+  IMAGE_TAG_NAME: "hub.nwafu.edu.cn/library/mizhi/mizhi-pestcontrol:${CI_COMMIT_SHORT_SHA}"
+  IMAGE_TAG_NAME_DEV: "hub.nwafu.edu.cn/library/mizhi/mizhi-pestcontrol:dev"
+  IMAGE_TAG_NAME_PROD: "hub.nwafu.edu.cn/library/mizhi/mizhi-pestcontrol:prod"
+  MAVEN_REPO: "/.m2/repository"
+
+# 指定使用dev环境构建，nacos为校内地址
+build-dev:
+  # Use the official docker image.
+  image: hub.nwafu.edu.cn/public/maven:3.9.6
+  stage: build
+  only:
+    - master
+  tags:
+    - maven
+  script:
+    #- docker login --username ${REGISTRY_USER} --password ${REGISTRY_PWD} ${REGISTRY_HOST}
+    - mvn -Dmaven.repo.local=$MAVEN_REPO clean package -Dmaven.test.skip=true  -P dev
+    - mkdir -p output/dev # 创建dev环境目录
+    - cp target/*.jar output/dev/app.jar  # 将本阶段的构建产物复制到dev目录下
+  artifacts:
+    name: $PROJECT
+    expire_in: 7 days
+    paths:
+      - output/dev/app.jar  #明确产物路径为output/dev
+
+# 指定使用prod环境构建，nacos为阿里云地址
+build-prod:
+  # Use the official docker image.
+  image: hub.nwafu.edu.cn/public/maven:3.9.6
+  stage: build
+  only:
+    - master
+  tags:
+    - aliyun
+  script:
+    - mvn -Dmaven.repo.local=$MAVEN_REPO clean package -Dmaven.test.skip=true -P prod
+    - mkdir -p output/prod # 创建prod环境目录
+    - cp target/*.jar output/prod/app.jar  # 将本阶段的构建产物复制到dev目录下
+  artifacts:
+    name: $PROJECT
+    expire_in: 7 days
+    paths:
+      - output/prod/app.jar #明确产物路径为output/prod
+
+# 推送用于校内的docker镜像
+push-image-dev:
+  stage: push_image
+  image: hub.nwafu.edu.cn/public/docker:latest
+  script:
+    - docker login --username ${REGISTRY_USER} --password ${REGISTRY_PWD} ${REGISTRY_HOST}
+    - cp output/dev/app.jar ./app.jar  # 拷贝产物
+    - docker build -t ${IMAGE_TAG_NAME_DEV} .
+    - docker push ${IMAGE_TAG_NAME_DEV}
+    - rm -rf target
+    - docker rm -f ${PROJECT} #停掉并删除当前运行着的容器
+  only:
+    - master
+  tags:
+    - docker
+  needs: ["build-dev"]  # 明确依赖 build-dev 的构建作业
+
+# 推送用于阿里云的docker镜像
+push-image-prod:
+  stage: push_image
+  image: hub.nwafu.edu.cn/public/docker:latest
+  script:
+    - docker login --username ${REGISTRY_USER} --password ${REGISTRY_PWD} ${REGISTRY_HOST}
+    - cp output/prod/app.jar ./app.jar  # 拷贝产物
+    - docker build -t ${IMAGE_TAG_NAME_PROD} .
+    - docker push ${IMAGE_TAG_NAME_PROD}
+    - rm -rf target
+    - docker rm -f ${PROJECT} #停掉并删除当前运行着的容器
+  only:
+    - master
+  tags:
+    - aliyun
+  needs: ["build-prod"]
+
+deploy-env:
+  stage: deploy
+  image: docker:latest
+  tags:
+    - docker
+  only:
+    - master
+  script:
+    #- docker pull "${IMAGE_TAG_NAME_LATEST}" # 拉取最新的镜像
+    #- docker stop "${PROJECT}"
+    - docker run -d --name "${PROJECT}" --network host "${IMAGE_TAG_NAME_DEV}"  #以latest镜像运行容器
+    - docker rmi $(docker images ${IMAGE_NAME} -f "dangling=true" -q) #删掉上一个容器关联的无标签镜像 
+    #- docker rmi -f ${IMAGE_TAG_NAME} #删除上个版本镜像，只保留latest  
+  when: always
+
+deploy-prod:
+  stage: deploy
+  image: docker:latest
+  tags:
+    - aliyun
+  only:
+    - master
+  script:
+    #- docker pull "${IMAGE_TAG_NAME_LATEST}" # 拉取最新的镜像
+    #- docker stop "${PROJECT}"
+    - docker run -d --name "${PROJECT}" --network host "${IMAGE_TAG_NAME_PROD}"  #以latest镜像运行容器
+    - docker rmi $(docker images ${IMAGE_NAME} -f "dangling=true" -q) #删掉上一个容器关联的无标签镜像 
+    #- docker rmi -f ${IMAGE_TAG_NAME} #删除上个版本镜像，只保留latest  
+  when: always

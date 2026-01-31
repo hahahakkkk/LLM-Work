@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.nwafu.mizhipestcontrol.mapper.FarmlandMapper">
+
+    <resultMap id="warnResultMap" type="cn.edu.nwafu.mizhipestcontrol.domain.Farmland">
+        <result column="farmland_id" property="farmlandId"/>
+        <result column="farmland_name" property="farmlandName"/>
+        <result column="pest_types" property="pestTypes"/>
+        <result column="pest_tactics" property="pestTactics"/>
+        <result column="version" property="version"/>
+        <result column="origin_image_url" property="originImageUrl"/>
+        <result column="processed_image_url" property="processedImageUrl"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <select id="selectWarnRecords" resultMap="warnResultMap">
+        SELECT
+        farmland_id,
+        farmland_name,
+        pest_types,
+        pest_tactics,
+        version,
+        origin_image_url,
+        processed_image_url,
+        create_time
+        FROM pestcontrol_farmland
+        WHERE create_dept = #{deptId}
+        AND pest_types IS NOT NULL
+        AND create_time >= DATE_SUB(NOW(), INTERVAL 3 MONTH)  <!-- 新增时间条件 -->
+        AND (farmland_name, version) IN (
+        SELECT
+        farmland_name,
+        MAX(version)
+        FROM pestcontrol_farmland
+        WHERE create_dept = #{deptId}
+        AND pest_types IS NOT NULL
+        AND create_time >= DATE_SUB(NOW(), INTERVAL 3 MONTH)  <!-- 子查询同步添加 -->
+        GROUP BY farmland_name
+        )
+    </select>
+
+    <!-- 定义 FarmlandVo 的结果映射 -->
+    <resultMap id="FarmlandVoResultMap" type="cn.edu.nwafu.mizhipestcontrol.domain.vo.FarmlandVo">
+        <id property="farmlandId" column="farmland_id"/>
+        <result property="farmlandName" column="farmland_name"/>
+        <result property="pestTypes" column="pest_types"/>
+        <result property="originImageUrl" column="origin_image_url"/>
+        <result property="processedImageUrl" column="processed_image_url"/>
+        <!-- 其他字段映射 -->
+    </resultMap>
+
+    <!-- 定义 selectVoById 查询 -->
+    <select id="selectVoById" resultMap="FarmlandVoResultMap">
+        SELECT farmland_id,
+               farmland_name,
+               pest_types,
+               origin_image_url,
+               processed_image_url
+        FROM pestcontrol_farmland
+        WHERE farmland_id = #{farmlandId}
+    </select>
+
+    <!-- 自定义批量删除 -->
+    <delete id="deleteByIds">
+        DELETE FROM pestcontrol_farmland
+        WHERE farmland_id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!-- 查询同名农田的最大版本号 -->
+    <select id="selectMaxVersion" resultType="java.lang.Long">
+        SELECT IFNULL(MAX(version), 0)
+        FROM pestcontrol_farmland
+        WHERE farmland_name = #{farmlandName}
+          AND create_by = #{userId}
+    </select>
+
+<!--    查询所有的病虫害地块信息,包装成bo,供数据对外接口使用-->
+    <select id="selectFarmlandInfoList" resultType="cn.edu.nwafu.mizhipestcontrol.domain.bo.FarmlandInfoBo">
+        select
+            farmland_id          as farmlandId,
+            farmland_name        as farmlandName,
+            pest_types           as pestTypes,
+            pest_tactics         as pestTactics,
+            origin_image_url     as originImageUrl,
+            processed_image_url  as processedImageUrl,
+            update_time          as landUpdateTime
+        from pestcontrol_farmland
+    </select>
+</mapper>

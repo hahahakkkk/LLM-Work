@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.nwafu.mizhipestcontrol.mapper.PlantResultsMapper">
+
+    <select id="getPlantDetectionRecords" resultType="cn.edu.nwafu.mizhipestcontrol.domain.vo.PlantDetectionRecordVo">
+        SELECT
+            base_id as baseId,
+            plot_id as plotId,
+            plot_code as plotCode,
+            GROUP_CONCAT(disease_type SEPARATOR ', ') AS diseases,
+            CASE
+                WHEN
+                    SUM(disease_type = '谷子负泥虫') > 0
+                    AND SUM(disease_type LIKE '%叶斑%') > 0
+                THEN 3
+                WHEN SUM(disease_type = '谷子负泥虫') > 0
+                THEN 1
+                WHEN SUM(disease_type LIKE '%叶斑%') > 0
+                THEN 2
+                ELSE 0
+            END AS diseaseCode
+        FROM plant_results
+        WHERE disease_type = '谷子负泥虫' OR disease_type LIKE '%叶斑%'
+        <if test="growthStage != null">
+            AND growth_stage = #{growthStage}
+        </if>
+        GROUP BY base_id, plot_id, plot_code
+        ORDER BY plot_code
+    </select>
+
+    <select id="getSuHuiMingDetectionRecords" resultType="cn.edu.nwafu.mizhipestcontrol.domain.vo.SuHuiMingDetectionVo">
+        SELECT
+            base_id as baseId,
+            plot_id as plotId,
+            plot_code as plotCode
+        FROM plant_results
+        WHERE disease_type LIKE '%粟灰螟%'
+    </select>
+
+</mapper>

@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - '@vue-office/pdf'
+  - core-js
+  - esbuild
+  - vue-demi
